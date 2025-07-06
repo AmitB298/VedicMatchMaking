@@ -1,42 +1,25 @@
-<#
-.SYNOPSIS
-  Utility module for VedicMatchHealthCheck
-.DESCRIPTION
-  - Logging helpers
-  - Assert file/dir exists
-  - Record-Result function
-  - Save-Report function
-#>
+# Utils.ps1 for HealthCheck
 
-# -------------------------------------
-# Global Store for Results
-# -------------------------------------
 $global:CheckResults = @()
 
-# -------------------------------------
-# Logging Helpers
-# -------------------------------------
 function Log-Info {
     param([string]$Message)
-    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    Write-Host "[$timestamp] [INFO] $Message"
+    $ts = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    Write-Host "[$ts] [INFO] $Message"
 }
 
 function Log-Warning {
     param([string]$Message)
-    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    Write-Host "[$timestamp] [WARNING] $Message"
+    $ts = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    Write-Host "[$ts] [WARNING] $Message"
 }
 
 function Log-Error {
     param([string]$Message)
-    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    Write-Host "[$timestamp] [ERROR] $Message"
+    $ts = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    Write-Host "[$ts] [ERROR] $Message"
 }
 
-# -------------------------------------
-# Assertions
-# -------------------------------------
 function Assert-FileExists {
     param([string]$Path)
     if (-not (Test-Path $Path)) {
@@ -55,9 +38,6 @@ function Assert-DirectoryExists {
     Log-Info "✅ Verified directory exists: $Path"
 }
 
-# -------------------------------------
-# Record Results
-# -------------------------------------
 function Record-Result {
     param(
         [string]$Check,
@@ -71,29 +51,15 @@ function Record-Result {
     }
 }
 
-# -------------------------------------
-# Save Report as JSON
-# -------------------------------------
 function Save-Report {
     param (
-        [string]$Path
+        [string]$Path = (Join-Path $PSScriptRoot "..\reports\healthcheck-summary.json")
     )
-
-    # Default path if not specified
-    if (-not $Path) {
-        $reportsFolder = Join-Path $PSScriptRoot "..\reports"
-        if (-not (Test-Path $reportsFolder)) {
-            New-Item -ItemType Directory -Path $reportsFolder | Out-Null
-        }
-        $Path = Join-Path $reportsFolder "healthcheck-summary.json"
-    }
-
-    if ($global:CheckResults -and $global:CheckResults.Count -gt 0) {
+    if ($global:CheckResults) {
         $json = $global:CheckResults | ConvertTo-Json -Depth 5
         Set-Content -Path $Path -Value $json -Encoding UTF8
         Log-Info "✅ Healthcheck summary saved to $Path"
-    }
-    else {
+    } else {
         Log-Warning "⚠️ No health check results to save."
     }
 }

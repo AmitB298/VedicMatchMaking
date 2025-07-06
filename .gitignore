@@ -1,0 +1,37 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Android
+.gradle/
+.idea/
+*.iml
+
+# Secrets
+.env
+serviceAccountKey.json
+
+# Backups
+*.bak
+*.bak.*
+*.broken_*
+*.backup_*
+
+# Logs
+*.log
+/logs
+/journal
+/data
+*.wt
+*.lock
+*.bson
+
+# Binaries
+*.exe
+*.msi
+*.hprof
+
+# Misc
+.DS_Store
+__pycache__/

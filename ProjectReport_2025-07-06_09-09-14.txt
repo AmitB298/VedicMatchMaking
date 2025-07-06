@@ -1,0 +1,1166 @@
+------------------------------------------------------------
+🗂️ Project Analysis Report for E:\VedicMatchMaking
+Generated at: 07/06/2025 09:09:14
+------------------------------------------------------------
+
+📂 Folder Tree (excluding big folders):
+E:\VedicMatchMaking\android
+E:\VedicMatchMaking\android\app
+E:\VedicMatchMaking\android\app\src
+E:\VedicMatchMaking\android\app\src\main
+E:\VedicMatchMaking\android\app\src\main\java
+E:\VedicMatchMaking\android\app\src\main\java\com
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\core
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\core\network
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui\screens
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui\state
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\user
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\user\data
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\user\data\model
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\user\repository
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\viewmodel
+E:\VedicMatchMaking\android\app\src\main\res
+E:\VedicMatchMaking\android\app\src\main\res\values
+E:\VedicMatchMaking\android\app\src\main\res\values-hi
+E:\VedicMatchMaking\android\app\src\test
+E:\VedicMatchMaking\android\app\src\test\java
+E:\VedicMatchMaking\android\app\src\test\java\com
+E:\VedicMatchMaking\android\app\src\test\java\com\matchmaking
+E:\VedicMatchMaking\android\app\src\test\java\com\matchmaking\app
+E:\VedicMatchMaking\config
+E:\VedicMatchMaking\configs
+E:\VedicMatchMaking\Docker
+E:\VedicMatchMaking\Docker\data
+E:\VedicMatchMaking\Docker\resources
+E:\VedicMatchMaking\Docker\wsl
+E:\VedicMatchMaking\Docker\wsl\data
+E:\VedicMatchMaking\example
+E:\VedicMatchMaking\logs
+E:\VedicMatchMaking\matchmaking-app-android
+E:\VedicMatchMaking\matchmaking-app-android\app
+E:\VedicMatchMaking\matchmaking-app-android\app\src
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\example
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\example\matchmaking
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\core
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\core\network
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\api
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\models
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\repository
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\services
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\components
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\state
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\theme
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\user
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\user\data
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\user\data\model
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\user\repository
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\drawable
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\mipmap-hdpi
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\mipmap-mdpi
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\mipmap-xhdpi
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\mipmap-xxhdpi
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\mipmap-xxxhdpi
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\values
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\values-hi
+E:\VedicMatchMaking\matchmaking-app-android\app\src\test
+E:\VedicMatchMaking\matchmaking-app-android\app\src\test\java
+E:\VedicMatchMaking\matchmaking-app-android\app\src\test\java\com
+E:\VedicMatchMaking\matchmaking-app-android\app\src\test\java\com\matchmaking
+E:\VedicMatchMaking\matchmaking-app-android\app\src\test\java\com\matchmaking\app
+E:\VedicMatchMaking\matchmaking-app-android\community
+E:\VedicMatchMaking\matchmaking-app-android\gradle
+E:\VedicMatchMaking\matchmaking-app-android\gradle\wrapper
+E:\VedicMatchMaking\matchmaking-app-android\matchmaking
+E:\VedicMatchMaking\matchmaking-app-android\user
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\configs
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\logs
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\modules
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\reports
+E:\VedicMatchMaking\matchmaking-app-backend
+E:\VedicMatchMaking\matchmaking-app-backend\api-gateway
+E:\VedicMatchMaking\matchmaking-app-backend\backups
+E:\VedicMatchMaking\matchmaking-app-backend\config
+E:\VedicMatchMaking\matchmaking-app-backend\controllers
+E:\VedicMatchMaking\matchmaking-app-backend\data
+E:\VedicMatchMaking\matchmaking-app-backend\data\diagnostic.data
+E:\VedicMatchMaking\matchmaking-app-backend\data\journal
+E:\VedicMatchMaking\matchmaking-app-backend\lib
+E:\VedicMatchMaking\matchmaking-app-backend\logs
+E:\VedicMatchMaking\matchmaking-app-backend\middleware
+E:\VedicMatchMaking\matchmaking-app-backend\models
+E:\VedicMatchMaking\matchmaking-app-backend\routes
+E:\VedicMatchMaking\matchmaking-app-backend\services
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\logs
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\__pycache__
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\swiss_ephe
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\models
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\routes
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\src
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\src\components
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\src\pages
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\swiss_ephe
+E:\VedicMatchMaking\matchmaking-app-backend\services\verification
+E:\VedicMatchMaking\matchmaking-app-backend\tests
+E:\VedicMatchMaking\matchmaking-app-backend\Uploads
+E:\VedicMatchMaking\matchmaking-app-web
+E:\VedicMatchMaking\matchmaking-app-web\matchmaking-app-android
+E:\VedicMatchMaking\matchmaking-app-web\matchmaking-app-android\app
+E:\VedicMatchMaking\matchmaking-app-web\matchmaking-app-android\app\src
+E:\VedicMatchMaking\matchmaking-app-web\matchmaking-app-android\app\src\main
+E:\VedicMatchMaking\matchmaking-app-web\matchmaking-app-android\app\src\main\java
+E:\VedicMatchMaking\matchmaking-app-web\public
+E:\VedicMatchMaking\matchmaking-app-web\public\assets
+E:\VedicMatchMaking\matchmaking-app-web\src
+E:\VedicMatchMaking\matchmaking-app-web\src\assets
+E:\VedicMatchMaking\matchmaking-app-web\src\assets\images
+E:\VedicMatchMaking\matchmaking-app-web\src\assets\styles
+E:\VedicMatchMaking\matchmaking-app-web\src\components
+E:\VedicMatchMaking\matchmaking-app-web\src\components\ui
+E:\VedicMatchMaking\matchmaking-app-web\src\contexts
+E:\VedicMatchMaking\matchmaking-app-web\src\pages
+E:\VedicMatchMaking\matchmaking-app-web\src\screens
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__
+E:\VedicMatchMaking\matchmaking-app-web\src\services
+E:\VedicMatchMaking\matchmaking-app-web\src\styles
+E:\VedicMatchMaking\mobile
+E:\VedicMatchMaking\models
+E:\VedicMatchMaking\reports
+E:\VedicMatchMaking\routes
+E:\VedicMatchMaking\scripts
+E:\VedicMatchMaking\services
+E:\VedicMatchMaking\services\api-gateway
+E:\VedicMatchMaking\services\community-service
+E:\VedicMatchMaking\services\kundli-service
+E:\VedicMatchMaking\services\matchmaking-service
+E:\VedicMatchMaking\services\user-service
+E:\VedicMatchMaking\VedicMatchMaking
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\interfaces
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\screens
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\services
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\utils
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests\e2e
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests\load
+E:\VedicMatchMaking\VedicMatchMaking\web
+E:\VedicMatchMaking\VedicMatchMaking\web\src
+E:\VedicMatchMaking\VedicMatchMaking\web\src\interfaces
+E:\VedicMatchMaking\VedicMatchMaking\web\src\screens
+E:\VedicMatchMaking\VedicMatchMaking\web\src\services
+E:\VedicMatchMaking\VedicMatchMaking\web\src\utils
+E:\VedicMatchMaking\VedicMatchMaking\web\tests
+E:\VedicMatchMaking\VedicMatchMaking\web\tests\e2e
+E:\VedicMatchMaking\VedicMatchMaking\web\tests\load
+E:\VedicMatchMaking\VedicMatchMakingStructure
+E:\VedicMatchMaking\vedicmatchweb
+E:\VedicMatchMaking\vedicmatchweb\public
+E:\VedicMatchMaking\vedicmatchweb\src
+E:\VedicMatchMaking\vedicmatchweb\src\services
+
+
+📑 File Details (excluding big folders):
+E:\VedicMatchMaking\Add-DockerToPath.ps1	0.00 MB	7/2/2025 5:44:25 PM
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\core\network\SocketManager.kt	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui\screens\ChatScreen.kt	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui\screens\MatchScreen.kt	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui\state\ChatUiState.kt	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui\state\MatchUiState.kt	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\user\data\model\User.kt	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\user\repository\IUserRepository.kt	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\viewmodel\ChatViewModel.kt	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\viewmodel\MatchViewModel.kt	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\main\res\values-hi\strings.xml	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\main\res\values\strings.xml	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\android\app\src\test\java\com\matchmaking\app\ChatScreenTest.kt	0.00 MB	6/20/2025 6:09:08 PM
+E:\VedicMatchMaking\Automate-MatrimonySetup.ps1	0.01 MB	7/2/2025 6:21:20 PM
+E:\VedicMatchMaking\Build-And-Run-NodeDocker.ps1	0.00 MB	7/4/2025 11:39:44 AM
+E:\VedicMatchMaking\Build-KundliMicroservice.ps1	0.00 MB	7/2/2025 9:19:04 PM
+E:\VedicMatchMaking\Build-KundliSmart.ps1	0.00 MB	7/2/2025 9:34:40 PM
+E:\VedicMatchMaking\Check-And-Fix-MongoUri.ps1	0.00 MB	7/4/2025 11:55:59 PM
+E:\VedicMatchMaking\Check-And-Fix-SocketIO.ps1	0.00 MB	6/21/2025 9:53:10 PM
+E:\VedicMatchMaking\Check-And-Restart-SocketIO.ps1	0.00 MB	6/21/2025 9:39:41 PM
+E:\VedicMatchMaking\Check-DockerDeep.ps1	0.00 MB	7/4/2025 7:18:22 PM
+E:\VedicMatchMaking\Check-DockerStatus.ps1	0.00 MB	7/4/2025 7:04:51 PM
+E:\VedicMatchMaking\Check-LoginRegisterScreens.ps1	0.00 MB	7/5/2025 10:15:38 AM
+E:\VedicMatchMaking\Check-SocketIO.ps1	0.00 MB	6/21/2025 9:32:45 PM
+E:\VedicMatchMaking\Check-ViteStartup.ps1	0.00 MB	6/21/2025 8:25:13 AM
+E:\VedicMatchMaking\CheckAndFix-Docker.ps1	0.00 MB	7/4/2025 7:11:13 PM
+E:\VedicMatchMaking\Clean-ServerJsMongoUri.ps1	0.00 MB	7/4/2025 11:42:18 PM
+E:\VedicMatchMaking\config\mongoose.js	0.00 MB	7/2/2025 4:37:05 PM
+E:\VedicMatchMaking\configs\healthcheck-config.json	0.00 MB	7/5/2025 11:11:12 PM
+E:\VedicMatchMaking\create_project_structure.ps1	0.01 MB	6/20/2025 6:33:02 PM
+E:\VedicMatchMaking\Create-ApiGateway-WithUsersRoute.ps1	0.00 MB	6/22/2025 9:29:21 AM
+E:\VedicMatchMaking\createAdminUser.js	0.00 MB	7/2/2025 3:23:57 PM
+E:\VedicMatchMaking\createUser.js	0.00 MB	7/2/2025 3:34:22 PM
+E:\VedicMatchMaking\Deploy-VedicApp.ps1	0.00 MB	7/4/2025 4:27:32 PM
+E:\VedicMatchMaking\Diagnose-ApiGateway.ps1	0.00 MB	6/22/2025 7:26:39 AM
+E:\VedicMatchMaking\Diagnose-SocketIO-In-Backend.ps1	0.00 MB	6/21/2025 10:01:29 PM
+E:\VedicMatchMaking\docker-compose.yml	0.00 MB	7/4/2025 6:25:24 PM
+E:\VedicMatchMaking\docker-deep-diagnostics.log	0.00 MB	7/4/2025 7:18:35 PM
+E:\VedicMatchMaking\docker-diagnostics.log	0.00 MB	7/4/2025 7:11:20 PM
+E:\VedicMatchMaking\docker-startup-log.txt	0.00 MB	7/4/2025 7:25:04 PM
+E:\VedicMatchMaking\Docker\resources\com.docker.backend.exe	107.92 MB	6/21/2025 7:32:11 AM
+E:\VedicMatchMaking\Docker\resources\com.docker.build.exe	80.51 MB	6/21/2025 7:32:23 AM
+E:\VedicMatchMaking\DockerInstaller.exe	501.72 MB	6/20/2025 4:50:20 PM
+E:\VedicMatchMaking\example\myfile.txt	0.00 MB	6/22/2025 10:18:05 AM
+E:\VedicMatchMaking\Fix-And-Inject-SocketIO.ps1	0.00 MB	6/22/2025 6:41:59 AM
+E:\VedicMatchMaking\Fix-ApiGateway-ExpressServer.ps1	0.00 MB	6/22/2025 8:38:23 AM
+E:\VedicMatchMaking\Fix-ApiGateway-SocketIO.ps1	0.00 MB	6/22/2025 7:49:23 AM
+E:\VedicMatchMaking\Fix-ApiGateway-SocketIO.ps1.bak	0.00 MB	6/22/2025 7:49:23 AM
+E:\VedicMatchMaking\Fix-ApiGateway-SocketIO.ps1.bak2	0.00 MB	6/22/2025 7:46:01 AM
+E:\VedicMatchMaking\Fix-ComposeCompiler.ps1	0.00 MB	6/21/2025 4:22:33 PM
+E:\VedicMatchMaking\Fix-DirectoryStructure.ps1	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\Fix-DockerCompose.ps1	0.00 MB	7/4/2025 6:25:15 PM
+E:\VedicMatchMaking\Fix-DockerComposeYaml.ps1	0.00 MB	6/22/2025 6:57:00 AM
+E:\VedicMatchMaking\Fix-DockerEngine.ps1	0.00 MB	7/4/2025 6:23:53 PM
+E:\VedicMatchMaking\Fix-Express-Dockerfile-And-Restart.ps1	0.00 MB	7/4/2025 3:50:24 PM
+E:\VedicMatchMaking\Fix-Express-RootRoute-And-Restart.ps1	0.00 MB	7/4/2025 3:48:46 PM
+E:\VedicMatchMaking\Fix-HashLiteralErrors.ps1	0.00 MB	6/22/2025 7:45:51 AM
+E:\VedicMatchMaking\Fix-KotlinCompatibility.ps1	0.00 MB	6/21/2025 4:46:34 PM
+E:\VedicMatchMaking\Fix-KundliDockerfile.ps1	0.00 MB	7/2/2025 10:13:35 PM
+E:\VedicMatchMaking\Fix-KundliRequirePaths.ps1	0.00 MB	7/3/2025 12:38:09 AM
+E:\VedicMatchMaking\Fix-KundliServiceDockerfile.ps1	0.00 MB	7/2/2025 10:45:12 PM
+E:\VedicMatchMaking\Fix-MissingApiRoute.ps1	0.00 MB	6/22/2025 8:46:10 AM
+E:\VedicMatchMaking\Fix-ReactStyleBraces.ps1	0.00 MB	7/2/2025 9:31:32 AM
+E:\VedicMatchMaking\Fix-ReactStyleBracesAdvanced.ps1	0.00 MB	7/2/2025 9:36:58 AM
+E:\VedicMatchMaking\Fix-RegexInScript.ps1	0.00 MB	7/4/2025 4:52:18 PM
+E:\VedicMatchMaking\Fix-RootGradle.ps1	0.00 MB	6/21/2025 11:08:33 AM
+E:\VedicMatchMaking\Fix-SocketIO-20250621-220546.log	0.00 MB	6/21/2025 10:05:46 PM
+E:\VedicMatchMaking\Fix-SocketIO-Key-Safe.ps1	0.00 MB	6/22/2025 7:56:08 AM
+E:\VedicMatchMaking\Fix-SocketIO-Key.ps1	0.00 MB	6/22/2025 7:52:51 AM
+E:\VedicMatchMaking\Fix-SocketIO.ps1	0.00 MB	6/22/2025 6:27:38 AM
+E:\VedicMatchMaking\Fix-UnclosedHashBlock.ps1	0.00 MB	6/22/2025 7:49:14 AM
+E:\VedicMatchMaking\Fix-UnsafeRegex.ps1	0.00 MB	7/4/2025 5:34:15 PM
+E:\VedicMatchMaking\Fix-VedicApp.ps1	0.00 MB	7/4/2025 4:32:18 PM
+E:\VedicMatchMaking\Fix-VedicDocker.ps1	0.01 MB	7/4/2025 4:40:03 PM
+E:\VedicMatchMaking\Fix-ViteFrontend.ps1	0.00 MB	6/21/2025 8:27:50 AM
+E:\VedicMatchMaking\Fix-YamlLineError.ps1	0.00 MB	6/22/2025 7:11:27 AM
+E:\VedicMatchMaking\Fix-YamlRootAndServices.ps1	0.00 MB	6/22/2025 7:11:46 AM
+E:\VedicMatchMaking\FixAndBuild-KundliService.ps1	0.00 MB	7/2/2025 11:11:25 PM
+E:\VedicMatchMaking\FixAndDeploy-VedicApp.ps1	0.01 MB	7/4/2025 5:40:39 PM
+E:\VedicMatchMaking\fixed.ps1	0.00 MB	7/6/2025 8:31:06 AM
+E:\VedicMatchMaking\Generate-ProjectReport.ps1	0.00 MB	7/6/2025 9:08:35 AM
+E:\VedicMatchMaking\Handle-MongoPortError.ps1	0.00 MB	6/20/2025 8:19:24 PM
+E:\VedicMatchMaking\Inject-AndroidAuthTemplates.ps1	0.00 MB	7/5/2025 11:19:03 AM
+E:\VedicMatchMaking\Inject-AndroidAuthTestScreens.ps1	0.00 MB	7/5/2025 11:17:38 AM
+E:\VedicMatchMaking\Inject-AndroidFixedAuthScreens.ps1	0.00 MB	7/5/2025 11:39:26 AM
+E:\VedicMatchMaking\Inject-AndroidProductionScreens.ps1	0.00 MB	7/5/2025 11:48:35 AM
+E:\VedicMatchMaking\Inject-Express-RootRoute-And-Restart.ps1	0.00 MB	7/4/2025 4:15:40 PM
+E:\VedicMatchMaking\Inject-LoginRegisterTemplates.ps1	0.01 MB	7/5/2025 10:22:15 AM
+E:\VedicMatchMaking\Inject-ValidAndroidAuthScreens.ps1	0.00 MB	7/5/2025 11:55:22 AM
+E:\VedicMatchMaking\Kill-Port3000.ps1	0.00 MB	6/20/2025 10:03:52 AM
+E:\VedicMatchMaking\Load-HealthCheckUtils.ps1	0.00 MB	7/6/2025 12:46:43 AM
+E:\VedicMatchMaking\logs\2025-07-05-HealthCheck.log	0.00 MB	7/5/2025 11:11:39 PM
+E:\VedicMatchMaking\manage.ps1	0.01 MB	6/21/2025 8:36:45 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\build.gradle	0.00 MB	7/2/2025 1:59:51 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\build.gradle.kts	0.00 MB	6/24/2025 6:43:04 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\google-services.json	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\AndroidManifest.xml	0.00 MB	6/29/2025 11:49:32 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\AndroidManifest.xml.bak_20250623_100111	0.00 MB	6/21/2025 3:51:35 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\AndroidManifest.xml.bak_20250628_022153	0.00 MB	6/28/2025 2:21:10 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\AndroidManifest.xml.bak_20250628_093229	0.00 MB	6/28/2025 9:29:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\example\matchmaking\MainActivity.kt	0.00 MB	6/21/2025 3:45:56 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\example\matchmaking\MainApplication.kt	0.00 MB	6/21/2025 3:45:56 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\core\network\SocketManager.kt	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\core\network\UserApi.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\api\RetrofitClient.kt	0.00 MB	6/20/2025 8:34:38 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\api\UserApi.kt	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\models\Caste.kt	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\models\User.kt	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\repository\UserRepository.kt	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\MainActivity.kt	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\services\MessagingService.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\components\Dropdown.kt	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\components\ProgressBar.kt	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\ChatScreenTest.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\HomeScreenTest.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\LoginScreenTest.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\MatchScreenTest.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\OnboardingScreenTest.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\PhotoFeedbackScreenTest.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\ProfileScreenTest.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\RegisterScreenTest.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\SettingsScreenTest.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\ChatScreen.kt	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\HomeScreen.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\LoginScreen.kt	0.00 MB	7/5/2025 11:56:24 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\LoginScreen.kt.bak	0.00 MB	7/5/2025 10:39:37 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\LoginScreen.kt.bak.20250705111915	0.00 MB	7/5/2025 10:50:57 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\LoginScreen.kt.bak.20250705113306	0.00 MB	7/5/2025 11:19:15 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\LoginScreen.kt.bak.20250705114009	0.00 MB	7/5/2025 11:33:06 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\LoginScreen.kt.bak.20250705114914	0.00 MB	7/5/2025 11:40:09 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\LoginScreen.kt.bak.20250705114922	0.00 MB	7/5/2025 11:49:15 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\LoginScreen.kt.bak.20250705115624	0.00 MB	7/5/2025 11:49:22 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\MatchScreen.kt	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\OnboardingScreen.kt	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\PhotoFeedbackScreen.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\ProfileScreen.kt	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\RegisterScreen.kt	0.00 MB	7/5/2025 11:56:24 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\RegisterScreen.kt.bak	0.00 MB	7/5/2025 10:39:38 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\RegisterScreen.kt.bak.20250705111915	0.00 MB	7/5/2025 10:50:58 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\RegisterScreen.kt.bak.20250705113306	0.00 MB	7/5/2025 11:19:15 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\RegisterScreen.kt.bak.20250705114009	0.00 MB	7/5/2025 11:33:06 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\RegisterScreen.kt.bak.20250705114915	0.00 MB	7/5/2025 11:40:09 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\RegisterScreen.kt.bak.20250705114922	0.00 MB	7/5/2025 11:49:15 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\RegisterScreen.kt.bak.20250705115624	0.00 MB	7/5/2025 11:49:22 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\SettingsScreen.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\state\ChatUiState.kt	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\state\MatchUiState.kt	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\theme\colors.xml	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\theme\Theme.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\theme\themes.xml	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\user\data\model\User.kt	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\user\repository\IUserRepository.kt	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\ChatViewModel.kt	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\MatchViewModel.kt	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\PhotoFeedbackViewModel.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\ProfileViewModel.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\SettingsViewModel.kt	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\UserViewModel.kt	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\LoginScreen.kt	0.00 MB	7/5/2025 10:22:36 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\LoginScreen.kt.bak	0.00 MB	7/5/2025 10:16:21 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\RegisterScreen.kt	0.00 MB	7/5/2025 10:22:37 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\RegisterScreen.kt.bak	0.00 MB	7/5/2025 10:16:21 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\drawable\ic_notification.xml	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\drawable\placeholder.png	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\values-hi\strings.xml	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\values\colors.xml	0.00 MB	6/21/2025 4:04:37 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\values\strings.xml	0.00 MB	6/21/2025 3:51:46 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\res\values\themes.xml	0.00 MB	6/21/2025 4:04:37 PM
+E:\VedicMatchMaking\matchmaking-app-android\app\src\test\java\com\matchmaking\app\ChatScreenTest.kt	0.00 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\matchmaking-app-android\build.gradle	0.00 MB	6/21/2025 5:02:55 PM
+E:\VedicMatchMaking\matchmaking-app-android\build.gradle.kts	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\community\build.gradle	0.00 MB	6/21/2025 12:48:25 PM
+E:\VedicMatchMaking\matchmaking-app-android\Deploy-AndroidApp.ps1	0.01 MB	6/21/2025 10:20:25 AM
+E:\VedicMatchMaking\matchmaking-app-android\Fix-AndroidDeploy.ps1	0.00 MB	6/21/2025 10:31:08 AM
+E:\VedicMatchMaking\matchmaking-app-android\Fix-AndroidGradle.ps1	0.00 MB	6/21/2025 11:03:35 AM
+E:\VedicMatchMaking\matchmaking-app-android\Fix-AndroidModules.ps1	0.00 MB	6/21/2025 11:04:36 AM
+E:\VedicMatchMaking\matchmaking-app-android\Fix-AndroidSettings.ps1	0.00 MB	6/21/2025 10:49:59 AM
+E:\VedicMatchMaking\matchmaking-app-android\Fix-RootGradle.ps1	0.00 MB	6/21/2025 11:09:02 AM
+E:\VedicMatchMaking\matchmaking-app-android\gradle.properties	0.00 MB	6/21/2025 8:18:35 PM
+E:\VedicMatchMaking\matchmaking-app-android\gradle\wrapper\gradle-wrapper.jar	0.04 MB	6/21/2025 9:40:19 AM
+E:\VedicMatchMaking\matchmaking-app-android\gradle\wrapper\gradle-wrapper.properties	0.00 MB	6/21/2025 9:40:19 AM
+E:\VedicMatchMaking\matchmaking-app-android\gradlew	0.01 MB	6/21/2025 9:40:21 AM
+E:\VedicMatchMaking\matchmaking-app-android\gradlew.bat	0.00 MB	6/21/2025 9:40:21 AM
+E:\VedicMatchMaking\matchmaking-app-android\java_pid13760.hprof	638.41 MB	6/21/2025 5:07:19 PM
+E:\VedicMatchMaking\matchmaking-app-android\matchmaking\build.gradle	0.00 MB	6/21/2025 12:48:25 PM
+E:\VedicMatchMaking\matchmaking-app-android\settings.gradle	0.00 MB	6/21/2025 11:22:01 AM
+E:\VedicMatchMaking\matchmaking-app-android\settings.gradle.kts	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-android\user\build.gradle	0.00 MB	6/21/2025 12:48:25 PM
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\.gitignore	0.00 MB	7/5/2025 11:01:58 PM
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\configs\healthcheck-config.json	0.00 MB	7/5/2025 11:01:58 PM
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\logs\healthcheck.log	0.01 MB	7/6/2025 6:49:59 AM
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\modules\Check-Emulator.ps1	0.00 MB	7/5/2025 11:45:28 PM
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\modules\Utils.ps1	0.00 MB	7/5/2025 11:23:58 PM
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\README.md	0.00 MB	7/5/2025 11:01:58 PM
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\reports\healthcheck-summary.json	0.00 MB	7/6/2025 6:49:59 AM
+E:\VedicMatchMaking\matchmaking-app-backend\.env	0.00 MB	7/5/2025 10:04:54 AM
+E:\VedicMatchMaking\matchmaking-app-backend\.env.bak	0.00 MB	7/4/2025 10:53:15 PM
+E:\VedicMatchMaking\matchmaking-app-backend\.env.bak.20250705100454	0.00 MB	7/4/2025 11:23:25 PM
+E:\VedicMatchMaking\matchmaking-app-backend\api-gateway\index.js	0.00 MB	6/22/2025 6:42:30 AM
+E:\VedicMatchMaking\matchmaking-app-backend\api-gateway\package-lock.json	0.04 MB	6/22/2025 6:43:04 AM
+E:\VedicMatchMaking\matchmaking-app-backend\api-gateway\package.json	0.00 MB	6/22/2025 6:42:30 AM
+E:\VedicMatchMaking\matchmaking-app-backend\Clean-ServerJsMongoUri.ps1	0.00 MB	7/4/2025 11:45:13 PM
+E:\VedicMatchMaking\matchmaking-app-backend\config\db.js	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-backend\config\mongoose.js	0.00 MB	7/5/2025 12:00:13 AM
+E:\VedicMatchMaking\matchmaking-app-backend\config\mongoose.js.bak	0.00 MB	7/2/2025 4:54:21 PM
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\adminController.js	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\casteController.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\chatController.js	0.00 MB	6/22/2025 10:21:54 AM
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\matchController.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\notificationService.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\userController.js	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-backend\data\_mdb_catalog.wt	0.02 MB	7/2/2025 5:50:43 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\collection-0-7884780839245788382.wt	0.02 MB	7/2/2025 5:50:43 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\collection-2-7884780839245788382.wt	0.04 MB	7/2/2025 5:51:43 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\collection-4-7884780839245788382.wt	0.00 MB	7/2/2025 5:45:16 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\diagnostic.data\metrics.2025-07-02T11-57-43Z-00000	0.18 MB	7/2/2025 5:45:18 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\diagnostic.data\metrics.2025-07-02T12-20-45Z-00000	0.38 MB	7/2/2025 6:38:19 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\index-1-7884780839245788382.wt	0.02 MB	7/2/2025 5:50:43 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\index-3-7884780839245788382.wt	0.04 MB	7/2/2025 5:51:43 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\index-5-7884780839245788382.wt	0.00 MB	7/2/2025 5:45:16 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\index-6-7884780839245788382.wt	0.00 MB	7/2/2025 5:51:44 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\journal\WiredTigerLog.0000000002	100.00 MB	7/2/2025 6:38:07 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\journal\WiredTigerPreplog.0000000001	100.00 MB	7/2/2025 5:50:43 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\mongod.lock	0.00 MB	7/2/2025 5:50:43 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\sizeStorer.wt	0.04 MB	7/2/2025 5:51:43 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\storage.bson	0.00 MB	7/2/2025 5:27:41 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\WiredTiger	0.00 MB	7/2/2025 5:27:41 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\WiredTiger.lock	0.00 MB	7/2/2025 5:27:40 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\WiredTiger.turtle	0.00 MB	7/2/2025 6:38:07 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\WiredTiger.wt	0.07 MB	7/2/2025 6:38:07 PM
+E:\VedicMatchMaking\matchmaking-app-backend\data\WiredTigerHS.wt	0.00 MB	7/2/2025 5:50:42 PM
+E:\VedicMatchMaking\matchmaking-app-backend\docker-compose.yml	0.00 MB	6/30/2025 4:03:07 PM
+E:\VedicMatchMaking\matchmaking-app-backend\docker-compose.yml.bak	0.00 MB	6/22/2025 3:59:22 PM
+E:\VedicMatchMaking\matchmaking-app-backend\docker-compose.yml.bak_20250622_203030	0.00 MB	6/22/2025 4:08:09 PM
+E:\VedicMatchMaking\matchmaking-app-backend\docker-compose.yml.broken_20250622_160809	0.00 MB	6/22/2025 4:02:13 PM
+E:\VedicMatchMaking\matchmaking-app-backend\lib\logger.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\lib\vedicID.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\logs\socket-check.log	0.00 MB	6/21/2025 9:40:09 PM
+E:\VedicMatchMaking\matchmaking-app-backend\middleware\auth.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\models\Caste.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\models\Chat.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\models\Kundli.js	0.00 MB	7/2/2025 4:54:21 PM
+E:\VedicMatchMaking\matchmaking-app-backend\models\Match.js	0.00 MB	7/2/2025 4:54:21 PM
+E:\VedicMatchMaking\matchmaking-app-backend\models\User.js	0.00 MB	7/2/2025 4:54:21 PM
+E:\VedicMatchMaking\matchmaking-app-backend\nginx.conf	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\package-lock.json	0.06 MB	7/4/2025 10:55:03 PM
+E:\VedicMatchMaking\matchmaking-app-backend\package.json	0.00 MB	7/3/2025 12:29:04 AM
+E:\VedicMatchMaking\matchmaking-app-backend\prometheus.yml	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\routes\adminRoutes.js	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\matchmaking-app-backend\routes\casteRoutes.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\routes\chatRoutes.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\routes\kundliRoutes.js	0.00 MB	7/2/2025 4:54:21 PM
+E:\VedicMatchMaking\matchmaking-app-backend\routes\matchRoutes.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\routes\notificationRoutes.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\routes\userRoutes.js	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-backend\Safe-Run-Compose.ps1	0.00 MB	6/20/2025 8:04:41 PM
+E:\VedicMatchMaking\matchmaking-app-backend\server.js	0.00 MB	7/5/2025 9:40:54 AM
+E:\VedicMatchMaking\matchmaking-app-backend\server.js.bak	0.00 MB	7/4/2025 11:39:50 PM
+E:\VedicMatchMaking\matchmaking-app-backend\server.js.bak.20250705000412	0.00 MB	7/4/2025 11:39:50 PM
+E:\VedicMatchMaking\matchmaking-app-backend\serviceAccountKey.json	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\Dockerfile	0.00 MB	7/4/2025 3:50:34 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\Dockerfile.bak_20250622_202412	0.00 MB	6/22/2025 4:02:13 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\Dockerfile.bak_20250622_212812	0.00 MB	6/22/2025 8:24:12 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js	0.00 MB	7/5/2025 12:00:13 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.backup_20250623_071613	0.00 MB	6/23/2025 7:12:07 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.bak	0.00 MB	6/23/2025 9:49:22 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.bak_20250623_074618	0.00 MB	6/23/2025 7:31:22 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.bak_20250623_082218	0.00 MB	6/23/2025 7:46:18 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.bak_20250623_083033	0.00 MB	6/23/2025 8:22:18 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.bak_20250623_084900	0.00 MB	6/23/2025 8:30:33 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.bak_20250623_092928	0.00 MB	6/23/2025 8:49:00 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.bak_20250623_093713	0.00 MB	6/23/2025 9:29:29 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.bak_20250623_093939	0.00 MB	6/23/2025 9:37:13 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.bak_20250623_094922	0.00 MB	6/23/2025 9:39:39 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.broken_20250622_171651	0.00 MB	6/22/2025 5:09:21 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.forcefix_20250622_210018	0.00 MB	6/22/2025 5:16:51 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.fullsync_20250623_073122	0.00 MB	6/23/2025 7:16:13 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.mobilefix_20250622_204943	0.00 MB	6/22/2025 5:16:51 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.mongoFix_20250623_070313	0.00 MB	6/23/2025 6:18:04 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.syntaxfix_20250622_213424	0.00 MB	6/22/2025 9:00:18 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.syntaxfix_20250622_213524	0.00 MB	6/22/2025 9:34:24 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.syntaxfix_20250623_061803	0.00 MB	6/22/2025 9:35:24 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.timingfix_20250623_071207	0.00 MB	6/23/2025 7:03:13 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js.working_final_20250623_080727	0.00 MB	6/23/2025 7:46:18 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\logs\api-gateway.log	0.00 MB	6/22/2025 7:26:54 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\package-lock.json	0.04 MB	6/22/2025 9:29:55 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\package.json	0.00 MB	6/22/2025 6:35:22 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\package.json.bak_20250622_183522	0.00 MB	6/22/2025 8:38:34 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\server.js	0.00 MB	6/22/2025 8:38:34 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\__pycache__\kundli_match_full.cpython-311.pyc	0.01 MB	6/30/2025 6:19:54 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\__pycache__\kundli_matcher.cpython-311.pyc	0.01 MB	6/30/2025 12:42:38 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\api_debug_20250701_005621.log	0.00 MB	7/1/2025 12:58:32 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\api_debug.log	0.01 MB	7/1/2025 8:36:43 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\app.js	0.00 MB	7/5/2025 12:04:50 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\app.js.bak.20250705000412	0.00 MB	7/2/2025 2:29:01 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Automate-KundliSetup.ps1	0.01 MB	6/30/2025 9:12:01 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Automate-MatrimonySetup.ps1	0.01 MB	7/2/2025 3:49:57 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Check-KundliAPI.ps1	0.00 MB	6/30/2025 7:35:39 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Check-KundliImportIssue.ps1	0.00 MB	6/30/2025 7:31:08 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Check-KundliMatchImport.ps1	0.00 MB	6/30/2025 5:33:28 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\createAdminUser.js	0.00 MB	7/2/2025 3:04:44 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Debug-KundliMatchAPI.ps1	0.00 MB	7/1/2025 1:00:50 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Dockerfile	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Fix-AllPercentageBackslashes.ps1	0.00 MB	7/2/2025 1:41:24 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Fix-KundliAIMatcher.ps1	0.00 MB	7/1/2025 1:14:06 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Fix-ProgressBarWidth.ps1	0.00 MB	7/2/2025 1:36:28 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Fix-ProgressBarWidthEscape.ps1	0.00 MB	7/2/2025 2:40:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Fix-ReactWidthStyleAdvanced.ps1	0.00 MB	7/2/2025 1:25:37 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Invoke-KundliMatchTest.ps1	0.00 MB	6/30/2025 7:42:40 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_ai_matcher.py	0.00 MB	7/1/2025 1:19:11 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_api_hybrid.py	0.00 MB	7/1/2025 7:18:28 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_api.py	0.00 MB	7/2/2025 10:53:33 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_calculator.py	0.00 MB	7/2/2025 1:04:35 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_hybrid_matcher.py	0.01 MB	7/1/2025 8:36:42 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_match_full.py	0.00 MB	6/30/2025 6:19:31 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_match.py	0.00 MB	6/30/2025 9:20:28 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_matcher.py	0.00 MB	6/30/2025 12:41:12 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_service.py	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_setup.log	0.00 MB	6/30/2025 9:03:28 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_training_data.csv	0.00 MB	7/1/2025 1:36:45 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\Dockerfile	0.00 MB	7/3/2025 12:41:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\Dockerfile.bak	0.00 MB	7/2/2025 10:49:29 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\index.js	0.00 MB	7/5/2025 12:04:50 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\index.js.bak.20250705000412	0.00 MB	7/3/2025 12:27:59 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\kundli_api.py	0.00 MB	7/2/2025 10:53:33 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\kundli_calculator.py	0.00 MB	7/2/2025 1:04:35 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\kundli.js	0.00 MB	7/2/2025 1:04:35 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\package-lock.json	0.07 MB	7/2/2025 12:59:02 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\package.json	0.00 MB	7/2/2025 12:59:02 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\requirements.txt	0.00 MB	6/30/2025 4:52:02 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\swiss_ephe\seas_18.se1	0.21 MB	6/23/2025 4:39:31 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\swiss_ephe\semo_18.se1	1.24 MB	6/23/2025 4:39:33 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\swiss_ephe\sepl_18.se1	0.46 MB	6/23/2025 4:39:30 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundliService.js	0.00 MB	7/2/2025 1:04:35 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\models\kundli_match_predictor.pkl	0.00 MB	7/1/2025 1:56:33 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\package-lock.json	0.08 MB	7/2/2025 1:13:10 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\package.json	0.00 MB	7/2/2025 1:13:10 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\requirements.txt	0.00 MB	6/30/2025 4:52:02 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\routes\kundli.js	0.00 MB	7/2/2025 1:04:35 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Run-KundliHybridTest.ps1	0.00 MB	7/1/2025 1:43:28 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Run-KundliMatch.ps1	0.00 MB	6/30/2025 10:55:05 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Setup-KundliMatchService.ps1	0.00 MB	6/30/2025 4:51:52 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Setup-KundliMatchWeb.ps1	0.01 MB	7/1/2025 11:34:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\src\components\ProfileCard.tsx	0.00 MB	7/1/2025 11:36:14 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\src\components\ProgressBar.tsx	0.00 MB	7/2/2025 10:23:47 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\src\components\ProgressBar.tsx.bak	0.00 MB	7/2/2025 1:26:57 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\src\pages\KundliMatchReport.tsx	0.00 MB	7/2/2025 2:52:26 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\src\pages\KundliMatchReport.tsx.bak	0.00 MB	7/1/2025 11:36:14 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\swiss_ephe\seas_18.se1	0.21 MB	6/23/2025 4:39:31 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\swiss_ephe\semo_18.se1	1.24 MB	6/23/2025 4:39:33 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\swiss_ephe\sepl_18.se1	0.46 MB	6/23/2025 4:39:30 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\test_request.py	0.00 MB	7/1/2025 7:11:23 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Test-KundliAPI.ps1	0.00 MB	6/30/2025 6:21:28 PM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\train_kundli_model.py	0.00 MB	7/1/2025 1:56:13 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\train_log.txt	0.00 MB	7/1/2025 1:36:46 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Train-KundliAIMatcher.ps1	0.00 MB	7/1/2025 1:28:33 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\verification\Dockerfile	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\verification\models	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\verification\photo_verifier.py	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\services\verification\uploads	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\Setup-MongooseIntegration.ps1	0.00 MB	7/2/2025 4:53:59 PM
+E:\VedicMatchMaking\matchmaking-app-backend\Setup-MongooseMongo.ps1	0.00 MB	7/2/2025 4:44:43 PM
+E:\VedicMatchMaking\matchmaking-app-backend\socket.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-backend\tests\kundli_service_test.py	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\matchmaking-app-backend\tests\verification_test.py	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\matchmaking-app-web\Dockerfile	0.00 MB	7/4/2025 4:32:30 PM
+E:\VedicMatchMaking\matchmaking-app-web\index.html	0.00 MB	6/21/2025 8:27:58 AM
+E:\VedicMatchMaking\matchmaking-app-web\matchmaking-app-android\app\src\main\java\RegisterScreen.kt	0.00 MB	7/5/2025 10:36:40 AM
+E:\VedicMatchMaking\matchmaking-app-web\package-lock.json	0.15 MB	7/5/2025 10:27:06 AM
+E:\VedicMatchMaking\matchmaking-app-web\package.json	0.00 MB	7/2/2025 12:46:46 PM
+E:\VedicMatchMaking\matchmaking-app-web\public\assets\icon.png.jpg	0.19 MB	6/14/2025 7:18:25 AM
+E:\VedicMatchMaking\matchmaking-app-web\public\assets\placeholder.svg	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-web\public\favicon.ico	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\public\firebase-messaging-sw.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-web\public\index.html	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\public\manifest.json	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\Setup-KundliMatchWeb.ps1	0.01 MB	7/1/2025 11:40:38 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\App.tsx	0.00 MB	6/21/2025 8:27:58 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\assets\styles\tailwind.css	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\components\Dropdown.tsx	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\components\OnboardingForm.tsx	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\components\ProfileCard.tsx	0.00 MB	7/1/2025 11:40:46 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\components\ProgressBar.tsx	0.00 MB	7/2/2025 10:23:46 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\components\ProgressBar.tsx.bak	0.00 MB	7/2/2025 9:00:56 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\components\ui\card.tsx	0.00 MB	7/1/2025 11:25:59 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\components\ui\progress.tsx	0.00 MB	7/2/2025 10:23:46 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\components\ui\progress.tsx.bak	0.00 MB	7/2/2025 9:05:41 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\contexts\AuthContext.tsx	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\contexts\UserContext.tsx	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\firebase.js	0.00 MB	7/2/2025 10:15:19 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\Fix-AllReactEscapes.ps1	0.00 MB	7/2/2025 8:58:51 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\Fix-ExtraBraces.ps1	0.00 MB	7/2/2025 10:23:35 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\Fix-ReactStyleBracesAdvanced.ps1	0.00 MB	7/2/2025 10:15:44 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\i18n.js	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\index.css	0.00 MB	7/1/2025 11:48:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\index.tsx	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\main.tsx	0.00 MB	7/1/2025 9:54:33 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\pages\KundliMatchReport.tsx	0.00 MB	7/1/2025 1:59:09 PM
+E:\VedicMatchMaking\matchmaking-app-web\src\pages\KundliMatchReport.tsx.bak	0.00 MB	7/1/2025 11:40:46 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\AdminPanelScreen.test.tsx	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\ChatScreen.test.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\ChatScreen.test.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\HomeScreen.test.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\HomeScreen.test.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\LoginScreen.test.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\LoginScreen.test.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\MatchScreen.test.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\MatchScreen.test.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\OnboardingScreen.test.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\OnboardingScreen.test.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\PhotoFeedbackScreen.test.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\PhotoFeedbackScreen.test.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\ProfileScreen.test.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\ProfileScreen.test.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\RegisterScreen.test.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\RegisterScreen.test.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\SettingsScreen.test.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\__tests__\SettingsScreen.test.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\AdminPanelScreen.tsx	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\ChatScreen.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\ChatScreen.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\HomeScreen.tsx	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\LoginScreen.tsx	0.00 MB	7/5/2025 10:22:33 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\LoginScreen.tsx.bak	0.00 MB	6/28/2025 12:11:32 PM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\MatchScreen.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\MatchScreen.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\OnboardingScreen.tsx	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\PhotoFeedbackScreen.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\PhotoFeedbackScreen.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\ProfileScreen.tsx	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\RegisterScreen.tsx	0.00 MB	7/5/2025 10:22:35 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\RegisterScreen.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\SettingsScreen.tsx	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\screens\SettingsScreen.tsx.bak	0.00 MB	7/2/2025 9:37:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\services\api.ts	0.00 MB	6/20/2025 8:04:15 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\services\userService.ts	0.00 MB	6/20/2025 7:55:23 AM
+E:\VedicMatchMaking\matchmaking-app-web\src\styles\global.css	0.00 MB	6/22/2025 10:09:53 AM
+E:\VedicMatchMaking\matchmaking-app-web\tailwind.config.js	0.00 MB	7/1/2025 11:46:29 AM
+E:\VedicMatchMaking\matchmaking-app-web\tsconfig.json	0.00 MB	6/21/2025 8:30:01 AM
+E:\VedicMatchMaking\matchmaking-app-web\tsconfig.node.json	0.00 MB	7/1/2025 9:03:24 AM
+E:\VedicMatchMaking\matchmaking-app-web\vite.config.js	0.00 MB	7/4/2025 4:37:03 PM
+E:\VedicMatchMaking\matchmaking-app-web\vite.config.ts	0.00 MB	7/1/2025 9:32:19 AM
+E:\VedicMatchMaking\matrimony_setup.log	0.00 MB	7/2/2025 6:22:59 PM
+E:\VedicMatchMaking\mobile\mobile-config.json	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\mobile\readme.md	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\models\Kundli.js	0.00 MB	7/2/2025 4:37:05 PM
+E:\VedicMatchMaking\models\Match.js	0.00 MB	7/2/2025 4:37:05 PM
+E:\VedicMatchMaking\models\User.js	0.00 MB	7/2/2025 4:37:05 PM
+E:\VedicMatchMaking\oad-HealthCheckUtils.ps1	0.00 MB	7/5/2025 11:38:30 PM
+E:\VedicMatchMaking\package-lock.json	0.03 MB	6/21/2025 8:22:36 PM
+E:\VedicMatchMaking\package.json	0.00 MB	6/20/2025 6:59:17 AM
+E:\VedicMatchMaking\Populate-DirectoryStructure.Tests.ps1	0.01 MB	6/23/2025 7:41:53 AM
+E:\VedicMatchMaking\Populate-VedicMatchMakingStructure.ps1	0.01 MB	6/24/2025 7:29:30 AM
+E:\VedicMatchMaking\project_structure.txt	16.26 MB	7/2/2025 11:12:31 AM
+E:\VedicMatchMaking\ProjectReport_2025-07-06_08-22-26.txt	23.22 MB	7/6/2025 8:47:04 AM
+E:\VedicMatchMaking\ProjectReport_2025-07-06_08-47-22.txt	1.02 MB	7/6/2025 8:47:34 AM
+E:\VedicMatchMaking\ProjectReport_2025-07-06_08-51-58.txt	19.06 MB	7/6/2025 8:52:59 AM
+E:\VedicMatchMaking\ProjectReport_2025-07-06_09-06-28.txt	13.78 MB	7/6/2025 9:08:50 AM
+E:\VedicMatchMaking\ProjectReport_2025-07-06_09-09-14.txt	0.01 MB	7/6/2025 9:09:14 AM
+E:\VedicMatchMaking\README.md	0.00 MB	6/23/2025 5:58:26 PM
+E:\VedicMatchMaking\Rebuild-DockerCompose.ps1	0.00 MB	6/22/2025 7:15:24 AM
+E:\VedicMatchMaking\Repair-VedicApp.ps1	0.00 MB	7/4/2025 4:36:49 PM
+E:\VedicMatchMaking\Replace-Placeholders.ps1	0.05 MB	6/23/2025 5:26:30 PM
+E:\VedicMatchMaking\routes\kundliRoutes.js	0.00 MB	7/2/2025 4:37:05 PM
+E:\VedicMatchMaking\Run-AllHealthChecks.ps1	0.00 MB	7/6/2025 8:48:11 AM
+E:\VedicMatchMaking\Run-AndroidAuthTestFlow.ps1	0.00 MB	7/5/2025 10:56:50 AM
+E:\VedicMatchMaking\Run-AndroidEmulatorAndBuild.ps1	0.00 MB	7/5/2025 10:54:23 AM
+E:\VedicMatchMaking\Run-DockerCompose.ps1	0.00 MB	7/4/2025 11:49:54 AM
+E:\VedicMatchMaking\Scan-SocketIO-Endpoints.ps1	0.00 MB	6/21/2025 9:48:33 PM
+E:\VedicMatchMaking\scripts\Fix-DockerEngine.ps1	0.00 MB	7/4/2025 6:17:07 PM
+E:\VedicMatchMaking\services\api-gateway\Dockerfile	0.00 MB	6/20/2025 7:50:32 PM
+E:\VedicMatchMaking\services\community-service\Dockerfile	0.00 MB	6/20/2025 7:50:32 PM
+E:\VedicMatchMaking\services\kundli-service\Dockerfile	0.00 MB	6/20/2025 7:50:32 PM
+E:\VedicMatchMaking\services\matchmaking-service\Dockerfile	0.00 MB	6/20/2025 7:50:32 PM
+E:\VedicMatchMaking\services\user-service\Dockerfile	0.00 MB	6/20/2025 7:53:23 PM
+E:\VedicMatchMaking\Setup-DatabaseAndBackend.ps1	0.00 MB	6/21/2025 8:43:09 PM
+E:\VedicMatchMaking\setup-kundli-service.ps1	0.01 MB	7/2/2025 1:03:26 PM
+E:\VedicMatchMaking\Setup-KundliMongoDB.ps1	0.00 MB	7/2/2025 3:42:12 PM
+E:\VedicMatchMaking\setup-mongodb.ps1	0.00 MB	7/2/2025 4:01:09 PM
+E:\VedicMatchMaking\Setup-MongooseMongo.ps1	0.00 MB	7/2/2025 4:44:02 PM
+E:\VedicMatchMaking\Setup-VedicMatchMakingStructure.ps1	0.00 MB	6/23/2025 9:29:28 PM
+E:\VedicMatchMaking\Start-AndroidEmulator.ps1	0.00 MB	6/21/2025 8:52:24 AM
+E:\VedicMatchMaking\Start-DockerDesktop-Auto.ps1	0.00 MB	7/4/2025 7:24:55 PM
+E:\VedicMatchMaking\StartMatchmakingStack.ps1	0.00 MB	6/20/2025 2:53:02 PM
+E:\VedicMatchMaking\StartMatchmakingStack.ps1.txt	0.00 MB	6/20/2025 2:50:47 PM
+E:\VedicMatchMaking\structure-check-2025-06-22_10-23-44.log	0.00 MB	6/22/2025 10:23:44 AM
+E:\VedicMatchMaking\structure-check-2025-06-22_10-25-35.log	0.00 MB	6/22/2025 10:25:35 AM
+E:\VedicMatchMaking\structure-check.log	0.00 MB	6/22/2025 10:11:17 AM
+E:\VedicMatchMaking\structure-summary.json	0.00 MB	6/23/2025 8:40:01 PM
+E:\VedicMatchMaking\SyncFullSetup.ps1	0.00 MB	6/20/2025 8:46:02 AM
+E:\VedicMatchMaking\system_info.txt	0.00 MB	7/2/2025 11:13:07 AM
+E:\VedicMatchMaking\Test-FullSync.ps1	0.00 MB	6/22/2025 8:31:47 AM
+E:\VedicMatchMaking\Update-EnvMongoUri.ps1	0.00 MB	7/5/2025 10:04:25 AM
+E:\VedicMatchMaking\Utils.ps1	0.00 MB	7/6/2025 12:27:31 AM
+E:\VedicMatchMaking\validation.log	0.00 MB	6/23/2025 8:40:01 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\package-lock.json	0.24 MB	6/20/2025 8:14:23 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\package.json	0.00 MB	6/20/2025 8:01:54 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\i18n.js	0.00 MB	6/20/2025 8:01:55 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\interfaces\Match.ts	0.00 MB	6/20/2025 8:01:55 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\interfaces\Message.ts	0.00 MB	6/20/2025 8:01:54 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\interfaces\User.ts	0.00 MB	6/20/2025 8:01:54 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\screens\ChatScreen.tsx	0.00 MB	6/20/2025 8:01:55 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\screens\MatchScreen.tsx	0.00 MB	6/20/2025 8:01:55 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\services\userService.ts	0.00 MB	6/20/2025 8:01:55 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\utils\chatStorage.ts	0.00 MB	6/20/2025 8:01:55 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests\e2e\chatScreen.test.js	0.00 MB	6/20/2025 8:01:54 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests\e2e\connectionToChat.test.js	0.00 MB	6/20/2025 8:01:55 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests\e2e\matchScreen.test.js	0.00 MB	6/20/2025 8:01:54 PM
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests\load\loadTest.js	0.00 MB	6/20/2025 8:01:54 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\package.json	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\src\i18n.js	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\src\interfaces\Match.ts	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\src\interfaces\Message.ts	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\src\interfaces\User.ts	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\src\screens\ChatScreen.tsx	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\src\screens\MatchScreen.tsx	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\src\services\userService.ts	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\src\utils\chatStorage.ts	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\tests\e2e\chatScreen.test.js	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\tests\e2e\connectionToChat.test.js	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\tests\e2e\matchScreen.test.js	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMaking\web\tests\load\loadTest.js	0.00 MB	6/20/2025 6:45:35 PM
+E:\VedicMatchMaking\VedicMatchMakingStructure\Populate-DirectoryStructure.ps1	0.00 MB	6/23/2025 9:45:46 PM
+E:\VedicMatchMaking\VedicMatchMakingStructure\Populate-DirectoryStructure.Tests.ps1	0.00 MB	6/23/2025 9:45:46 PM
+E:\VedicMatchMaking\VedicMatchMakingStructure\VedicMatchMakingStructure.psd1	0.00 MB	6/23/2025 9:45:46 PM
+E:\VedicMatchMaking\VedicMatchMakingStructure\VedicMatchMakingStructure.psm1	0.00 MB	6/23/2025 9:45:46 PM
+E:\VedicMatchMaking\vedicmatchweb\.gitignore	0.00 MB	6/19/2025 8:34:56 PM
+E:\VedicMatchMaking\vedicmatchweb\about.html	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\vedicmatchweb\contact.html	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\vedicmatchweb\index.html	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\vedicmatchweb\package-lock.json	0.64 MB	6/20/2025 7:34:27 AM
+E:\VedicMatchMaking\vedicmatchweb\package.json	0.00 MB	6/20/2025 7:34:27 AM
+E:\VedicMatchMaking\vedicmatchweb\postcss.config.js	0.00 MB	6/20/2025 7:34:42 AM
+E:\VedicMatchMaking\vedicmatchweb\public\favicon.ico	0.00 MB	6/19/2025 8:35:06 PM
+E:\VedicMatchMaking\vedicmatchweb\public\index.html	0.00 MB	6/19/2025 8:35:05 PM
+E:\VedicMatchMaking\vedicmatchweb\public\logo192.png	0.01 MB	6/19/2025 8:35:18 PM
+E:\VedicMatchMaking\vedicmatchweb\public\logo512.png	0.01 MB	6/19/2025 8:35:22 PM
+E:\VedicMatchMaking\vedicmatchweb\public\manifest.json	0.00 MB	6/19/2025 8:35:14 PM
+E:\VedicMatchMaking\vedicmatchweb\public\robots.txt	0.00 MB	6/19/2025 8:35:22 PM
+E:\VedicMatchMaking\vedicmatchweb\README.md	0.00 MB	6/19/2025 8:35:16 PM
+E:\VedicMatchMaking\vedicmatchweb\script.js	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\vedicmatchweb\services.html	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\vedicmatchweb\src\App.css	0.00 MB	6/19/2025 8:35:00 PM
+E:\VedicMatchMaking\vedicmatchweb\src\App.js	0.00 MB	6/20/2025 7:46:16 AM
+E:\VedicMatchMaking\vedicmatchweb\src\App.test.js	0.00 MB	6/19/2025 8:35:07 PM
+E:\VedicMatchMaking\vedicmatchweb\src\index.css	0.00 MB	6/19/2025 10:12:47 PM
+E:\VedicMatchMaking\vedicmatchweb\src\index.js	0.00 MB	6/19/2025 8:35:07 PM
+E:\VedicMatchMaking\vedicmatchweb\src\logo.svg	0.00 MB	6/19/2025 8:35:22 PM
+E:\VedicMatchMaking\vedicmatchweb\src\reportWebVitals.js	0.00 MB	6/19/2025 8:35:08 PM
+E:\VedicMatchMaking\vedicmatchweb\src\services\api.ts	0.00 MB	6/20/2025 8:40:06 AM
+E:\VedicMatchMaking\vedicmatchweb\src\services\userService.ts	0.00 MB	6/20/2025 8:46:57 AM
+E:\VedicMatchMaking\vedicmatchweb\src\setupTests.js	0.00 MB	6/19/2025 8:35:13 PM
+E:\VedicMatchMaking\vedicmatchweb\styles.css	0.00 MB	6/23/2025 8:58:09 PM
+E:\VedicMatchMaking\vedicmatchweb\tailwind.config.js	0.00 MB	6/19/2025 10:12:47 PM
+E:\VedicMatchMaking\vedicmatchweb\tailwindcss.exe.exe	125.67 MB	6/19/2025 10:05:41 PM
+
+
+📊 File Extensions Summary:
+	Count: 14
+.0000000001	Count: 1
+.0000000002	Count: 1
+.2025-07-02T11-57-43Z-00000	Count: 1
+.2025-07-02T12-20-45Z-00000	Count: 1
+.20250705000412	Count: 3
+.20250705100454	Count: 1
+.20250705111915	Count: 2
+.20250705113306	Count: 2
+.20250705114009	Count: 2
+.20250705114914	Count: 1
+.20250705114915	Count: 1
+.20250705114922	Count: 2
+.20250705115624	Count: 2
+.backup_20250623_071613	Count: 1
+.bak	Count: 31
+.bak_20250622_183522	Count: 1
+.bak_20250622_202412	Count: 1
+.bak_20250622_203030	Count: 1
+.bak_20250622_212812	Count: 1
+.bak_20250623_074618	Count: 1
+.bak_20250623_082218	Count: 1
+.bak_20250623_083033	Count: 1
+.bak_20250623_084900	Count: 1
+.bak_20250623_092928	Count: 1
+.bak_20250623_093713	Count: 1
+.bak_20250623_093939	Count: 1
+.bak_20250623_094922	Count: 1
+.bak_20250623_100111	Count: 1
+.bak_20250628_022153	Count: 1
+.bak_20250628_093229	Count: 1
+.bak2	Count: 1
+.bat	Count: 1
+.broken_20250622_160809	Count: 1
+.broken_20250622_171651	Count: 1
+.bson	Count: 1
+.conf	Count: 1
+.css	Count: 6
+.csv	Count: 1
+.env	Count: 1
+.exe	Count: 4
+.forcefix_20250622_210018	Count: 1
+.fullsync_20250623_073122	Count: 1
+.gitignore	Count: 2
+.gradle	Count: 6
+.hprof	Count: 1
+.html	Count: 7
+.ico	Count: 2
+.jar	Count: 1
+.jpg	Count: 1
+.js	Count: 64
+.json	Count: 30
+.kt	Count: 56
+.kts	Count: 3
+.lock	Count: 2
+.log	Count: 15
+.md	Count: 4
+.mobilefix_20250622_204943	Count: 1
+.mongoFix_20250623_070313	Count: 1
+.pkl	Count: 1
+.png	Count: 3
+.properties	Count: 2
+.ps1	Count: 126
+.psd1	Count: 1
+.psm1	Count: 1
+.py	Count: 16
+.pyc	Count: 2
+.se1	Count: 6
+.svg	Count: 2
+.syntaxfix_20250622_213424	Count: 1
+.syntaxfix_20250622_213524	Count: 1
+.syntaxfix_20250623_061803	Count: 1
+.timingfix_20250623_071207	Count: 1
+.ts	Count: 15
+.tsx	Count: 39
+.turtle	Count: 1
+.txt	Count: 14
+.working_final_20250623_080727	Count: 1
+.wt	Count: 11
+.xml	Count: 10
+.yml	Count: 3
+
+
+⚠️ Large Files (>10MB):
+E:\VedicMatchMaking\Docker\resources\com.docker.backend.exe  Size: 107.92 MB
+E:\VedicMatchMaking\Docker\resources\com.docker.build.exe  Size: 80.51 MB
+E:\VedicMatchMaking\matchmaking-app-android\java_pid13760.hprof  Size: 638.41 MB
+E:\VedicMatchMaking\matchmaking-app-backend\data\journal\WiredTigerLog.0000000002  Size: 100.00 MB
+E:\VedicMatchMaking\matchmaking-app-backend\data\journal\WiredTigerPreplog.0000000001  Size: 100.00 MB
+E:\VedicMatchMaking\vedicmatchweb\tailwindcss.exe.exe  Size: 125.67 MB
+E:\VedicMatchMaking\DockerInstaller.exe  Size: 501.72 MB
+E:\VedicMatchMaking\project_structure.txt  Size: 16.26 MB
+E:\VedicMatchMaking\ProjectReport_2025-07-06_08-22-26.txt  Size: 23.22 MB
+E:\VedicMatchMaking\ProjectReport_2025-07-06_08-51-58.txt  Size: 19.06 MB
+E:\VedicMatchMaking\ProjectReport_2025-07-06_09-06-28.txt  Size: 13.78 MB
+
+
+📝 Line Counts (Text / Code):
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\core\network\SocketManager.kt	Lines: 4
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui\screens\ChatScreen.kt	Lines: 4
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui\screens\MatchScreen.kt	Lines: 4
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui\state\ChatUiState.kt	Lines: 4
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\ui\state\MatchUiState.kt	Lines: 4
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\user\data\model\User.kt	Lines: 2
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\user\repository\IUserRepository.kt	Lines: 2
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\viewmodel\ChatViewModel.kt	Lines: 3
+E:\VedicMatchMaking\android\app\src\main\java\com\matchmaking\app\viewmodel\MatchViewModel.kt	Lines: 3
+E:\VedicMatchMaking\android\app\src\test\java\com\matchmaking\app\ChatScreenTest.kt	Lines: 2
+E:\VedicMatchMaking\config\mongoose.js	Lines: 14
+E:\VedicMatchMaking\configs\healthcheck-config.json	Lines: 17
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\example\matchmaking\MainActivity.kt	Lines: 16
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\example\matchmaking\MainApplication.kt	Lines: 5
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\core\network\SocketManager.kt	Lines: 4
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\core\network\UserApi.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\api\RetrofitClient.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\api\UserApi.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\models\Caste.kt	Lines: 1
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\models\User.kt	Lines: 1
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\data\repository\UserRepository.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\services\MessagingService.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\components\Dropdown.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\components\ProgressBar.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\ChatScreenTest.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\HomeScreenTest.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\LoginScreenTest.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\MatchScreenTest.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\OnboardingScreenTest.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\PhotoFeedbackScreenTest.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\ProfileScreenTest.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\RegisterScreenTest.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\__tests__\SettingsScreenTest.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\ChatScreen.kt	Lines: 4
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\HomeScreen.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\LoginScreen.kt	Lines: 44
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\MatchScreen.kt	Lines: 4
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\OnboardingScreen.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\PhotoFeedbackScreen.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\ProfileScreen.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\RegisterScreen.kt	Lines: 51
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\screens\SettingsScreen.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\state\ChatUiState.kt	Lines: 4
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\state\MatchUiState.kt	Lines: 4
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\ui\theme\Theme.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\user\data\model\User.kt	Lines: 2
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\user\repository\IUserRepository.kt	Lines: 2
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\ChatViewModel.kt	Lines: 3
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\MatchViewModel.kt	Lines: 3
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\PhotoFeedbackViewModel.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\ProfileViewModel.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\SettingsViewModel.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\viewmodel\UserViewModel.kt	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\com\matchmaking\app\MainActivity.kt	Lines: 1
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\LoginScreen.kt	Lines: 20
+E:\VedicMatchMaking\matchmaking-app-android\app\src\main\java\RegisterScreen.kt	Lines: 23
+E:\VedicMatchMaking\matchmaking-app-android\app\src\test\java\com\matchmaking\app\ChatScreenTest.kt	Lines: 2
+E:\VedicMatchMaking\matchmaking-app-android\app\google-services.json	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\configs\healthcheck-config.json	Lines: 8
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\modules\Check-Emulator.ps1	Lines: 27
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\modules\Utils.ps1	Lines: 46
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\reports\healthcheck-summary.json	Lines: 5
+E:\VedicMatchMaking\matchmaking-app-android\VedicMatchHealthCheck\README.md	Lines: 13
+E:\VedicMatchMaking\matchmaking-app-android\Deploy-AndroidApp.ps1	Lines: 161
+E:\VedicMatchMaking\matchmaking-app-android\Fix-AndroidDeploy.ps1	Lines: 72
+E:\VedicMatchMaking\matchmaking-app-android\Fix-AndroidGradle.ps1	Lines: 90
+E:\VedicMatchMaking\matchmaking-app-android\Fix-AndroidModules.ps1	Lines: 90
+E:\VedicMatchMaking\matchmaking-app-android\Fix-AndroidSettings.ps1	Lines: 65
+E:\VedicMatchMaking\matchmaking-app-android\Fix-RootGradle.ps1	Lines: 22
+E:\VedicMatchMaking\matchmaking-app-backend\api-gateway\index.js	Lines: 18
+E:\VedicMatchMaking\matchmaking-app-backend\api-gateway\package-lock.json	Lines: 1087
+E:\VedicMatchMaking\matchmaking-app-backend\api-gateway\package.json	Lines: 10
+E:\VedicMatchMaking\matchmaking-app-backend\config\db.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\config\mongoose.js	Lines: 14
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\adminController.js	Lines: 19
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\casteController.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\chatController.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\matchController.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\notificationService.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\controllers\userController.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\lib\logger.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\lib\vedicID.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\middleware\auth.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\models\Caste.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\models\Chat.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\models\Kundli.js	Lines: 11
+E:\VedicMatchMaking\matchmaking-app-backend\models\Match.js	Lines: 7
+E:\VedicMatchMaking\matchmaking-app-backend\models\User.js	Lines: 8
+E:\VedicMatchMaking\matchmaking-app-backend\routes\adminRoutes.js	Lines: 8
+E:\VedicMatchMaking\matchmaking-app-backend\routes\casteRoutes.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\routes\chatRoutes.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\routes\kundliRoutes.js	Lines: 22
+E:\VedicMatchMaking\matchmaking-app-backend\routes\matchRoutes.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\routes\notificationRoutes.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\routes\userRoutes.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\index.js	Lines: 28
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\package-lock.json	Lines: 1087
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\package.json	Lines: 13
+E:\VedicMatchMaking\matchmaking-app-backend\services\api-gateway\server.js	Lines: 16
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\index.js	Lines: 9
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\kundli_api.py	Lines: 32
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\kundli_calculator.py	Lines: 34
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\kundli.js	Lines: 13
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\package-lock.json	Lines: 2102
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli-service\package.json	Lines: 25
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\routes\kundli.js	Lines: 13
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\app.js	Lines: 13
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Automate-KundliSetup.ps1	Lines: 215
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Automate-MatrimonySetup.ps1	Lines: 152
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Check-KundliAPI.ps1	Lines: 28
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Check-KundliImportIssue.ps1	Lines: 31
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Check-KundliMatchImport.ps1	Lines: 42
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\createAdminUser.js	Lines: 6
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Debug-KundliMatchAPI.ps1	Lines: 88
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Fix-AllPercentageBackslashes.ps1	Lines: 49
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Fix-KundliAIMatcher.ps1	Lines: 52
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Fix-ProgressBarWidth.ps1	Lines: 25
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Fix-ProgressBarWidthEscape.ps1	Lines: 56
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Fix-ReactWidthStyleAdvanced.ps1	Lines: 59
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Invoke-KundliMatchTest.ps1	Lines: 26
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_ai_matcher.py	Lines: 101
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_api_hybrid.py	Lines: 72
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_api.py	Lines: 32
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_calculator.py	Lines: 34
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_hybrid_matcher.py	Lines: 139
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_match_full.py	Lines: 74
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_match.py	Lines: 77
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_matcher.py	Lines: 62
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundli_service.py	Lines: 31
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\kundliService.js	Lines: 22
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\package-lock.json	Lines: 2141
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\package.json	Lines: 26
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Run-KundliHybridTest.ps1	Lines: 14
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Run-KundliMatch.ps1	Lines: 87
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Setup-KundliMatchService.ps1	Lines: 65
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Setup-KundliMatchWeb.ps1	Lines: 204
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\test_request.py	Lines: 22
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Test-KundliAPI.ps1	Lines: 20
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\train_kundli_model.py	Lines: 27
+E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\Train-KundliAIMatcher.ps1	Lines: 54
+E:\VedicMatchMaking\matchmaking-app-backend\services\verification\photo_verifier.py	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\tests\kundli_service_test.py	Lines: 13
+E:\VedicMatchMaking\matchmaking-app-backend\tests\verification_test.py	Lines: 18
+E:\VedicMatchMaking\matchmaking-app-backend\Clean-ServerJsMongoUri.ps1	Lines: 73
+E:\VedicMatchMaking\matchmaking-app-backend\docker-compose.yml	Lines: 35
+E:\VedicMatchMaking\matchmaking-app-backend\package-lock.json	Lines: 1753
+E:\VedicMatchMaking\matchmaking-app-backend\package.json	Lines: 29
+E:\VedicMatchMaking\matchmaking-app-backend\prometheus.yml	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\Safe-Run-Compose.ps1	Lines: 47
+E:\VedicMatchMaking\matchmaking-app-backend\server.js	Lines: 75
+E:\VedicMatchMaking\matchmaking-app-backend\serviceAccountKey.json	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-backend\Setup-MongooseIntegration.ps1	Lines: 143
+E:\VedicMatchMaking\matchmaking-app-backend\Setup-MongooseMongo.ps1	Lines: 130
+E:\VedicMatchMaking\matchmaking-app-backend\socket.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-web\matchmaking-app-android\app\src\main\java\RegisterScreen.kt	Lines: 57
+E:\VedicMatchMaking\matchmaking-app-web\public\firebase-messaging-sw.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-web\public\index.html	Lines: 1
+E:\VedicMatchMaking\matchmaking-app-web\public\manifest.json	Lines: 1
+E:\VedicMatchMaking\matchmaking-app-web\src\assets\styles\tailwind.css	Lines: 1
+E:\VedicMatchMaking\matchmaking-app-web\src\services\api.ts	Lines: 8
+E:\VedicMatchMaking\matchmaking-app-web\src\services\userService.ts	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-web\src\styles\global.css	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-web\src\firebase.js	Lines: 20
+E:\VedicMatchMaking\matchmaking-app-web\src\Fix-AllReactEscapes.ps1	Lines: 70
+E:\VedicMatchMaking\matchmaking-app-web\src\Fix-ExtraBraces.ps1	Lines: 40
+E:\VedicMatchMaking\matchmaking-app-web\src\Fix-ReactStyleBracesAdvanced.ps1	Lines: 47
+E:\VedicMatchMaking\matchmaking-app-web\src\i18n.js	Lines: 0
+E:\VedicMatchMaking\matchmaking-app-web\src\index.css	Lines: 8
+E:\VedicMatchMaking\matchmaking-app-web\index.html	Lines: 13
+E:\VedicMatchMaking\matchmaking-app-web\package-lock.json	Lines: 4218
+E:\VedicMatchMaking\matchmaking-app-web\package.json	Lines: 26
+E:\VedicMatchMaking\matchmaking-app-web\Setup-KundliMatchWeb.ps1	Lines: 204
+E:\VedicMatchMaking\matchmaking-app-web\tailwind.config.js	Lines: 11
+E:\VedicMatchMaking\matchmaking-app-web\tsconfig.json	Lines: 21
+E:\VedicMatchMaking\matchmaking-app-web\tsconfig.node.json	Lines: 13
+E:\VedicMatchMaking\matchmaking-app-web\vite.config.js	Lines: 7
+E:\VedicMatchMaking\matchmaking-app-web\vite.config.ts	Lines: 11
+E:\VedicMatchMaking\mobile\mobile-config.json	Lines: 4
+E:\VedicMatchMaking\mobile\readme.md	Lines: 3
+E:\VedicMatchMaking\models\Kundli.js	Lines: 18
+E:\VedicMatchMaking\models\Match.js	Lines: 7
+E:\VedicMatchMaking\models\User.js	Lines: 8
+E:\VedicMatchMaking\routes\kundliRoutes.js	Lines: 24
+E:\VedicMatchMaking\scripts\Fix-DockerEngine.ps1	Lines: 37
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\interfaces\Match.ts	Lines: 5
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\interfaces\Message.ts	Lines: 5
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\interfaces\User.ts	Lines: 5
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\services\userService.ts	Lines: 4
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\utils\chatStorage.ts	Lines: 3
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\src\i18n.js	Lines: 8
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests\e2e\chatScreen.test.js	Lines: 4
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests\e2e\connectionToChat.test.js	Lines: 4
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests\e2e\matchScreen.test.js	Lines: 4
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\tests\load\loadTest.js	Lines: 4
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\package-lock.json	Lines: 7115
+E:\VedicMatchMaking\VedicMatchMaking\matchmaking-app-web\package.json	Lines: 21
+E:\VedicMatchMaking\VedicMatchMaking\web\src\interfaces\Match.ts	Lines: 5
+E:\VedicMatchMaking\VedicMatchMaking\web\src\interfaces\Message.ts	Lines: 5
+E:\VedicMatchMaking\VedicMatchMaking\web\src\interfaces\User.ts	Lines: 5
+E:\VedicMatchMaking\VedicMatchMaking\web\src\services\userService.ts	Lines: 4
+E:\VedicMatchMaking\VedicMatchMaking\web\src\utils\chatStorage.ts	Lines: 3
+E:\VedicMatchMaking\VedicMatchMaking\web\src\i18n.js	Lines: 8
+E:\VedicMatchMaking\VedicMatchMaking\web\tests\e2e\chatScreen.test.js	Lines: 4
+E:\VedicMatchMaking\VedicMatchMaking\web\tests\e2e\connectionToChat.test.js	Lines: 4
+E:\VedicMatchMaking\VedicMatchMaking\web\tests\e2e\matchScreen.test.js	Lines: 4
+E:\VedicMatchMaking\VedicMatchMaking\web\tests\load\loadTest.js	Lines: 4
+E:\VedicMatchMaking\VedicMatchMaking\web\package.json	Lines: 16
+E:\VedicMatchMaking\VedicMatchMakingStructure\Populate-DirectoryStructure.ps1	Lines: 2
+E:\VedicMatchMaking\VedicMatchMakingStructure\Populate-DirectoryStructure.Tests.ps1	Lines: 2
+E:\VedicMatchMaking\vedicmatchweb\public\index.html	Lines: 40
+E:\VedicMatchMaking\vedicmatchweb\public\manifest.json	Lines: 25
+E:\VedicMatchMaking\vedicmatchweb\src\services\api.ts	Lines: 5
+E:\VedicMatchMaking\vedicmatchweb\src\services\userService.ts	Lines: 5
+E:\VedicMatchMaking\vedicmatchweb\src\App.css	Lines: 33
+E:\VedicMatchMaking\vedicmatchweb\src\App.js	Lines: 9
+E:\VedicMatchMaking\vedicmatchweb\src\App.test.js	Lines: 7
+E:\VedicMatchMaking\vedicmatchweb\src\index.css	Lines: 3
+E:\VedicMatchMaking\vedicmatchweb\src\index.js	Lines: 15
+E:\VedicMatchMaking\vedicmatchweb\src\reportWebVitals.js	Lines: 12
+E:\VedicMatchMaking\vedicmatchweb\src\setupTests.js	Lines: 5
+E:\VedicMatchMaking\vedicmatchweb\about.html	Lines: 17
+E:\VedicMatchMaking\vedicmatchweb\contact.html	Lines: 17
+E:\VedicMatchMaking\vedicmatchweb\index.html	Lines: 17
+E:\VedicMatchMaking\vedicmatchweb\package-lock.json	Lines: 17708
+E:\VedicMatchMaking\vedicmatchweb\package.json	Lines: 45
+E:\VedicMatchMaking\vedicmatchweb\postcss.config.js	Lines: 6
+E:\VedicMatchMaking\vedicmatchweb\README.md	Lines: 38
+E:\VedicMatchMaking\vedicmatchweb\script.js	Lines: 4
+E:\VedicMatchMaking\vedicmatchweb\services.html	Lines: 22
+E:\VedicMatchMaking\vedicmatchweb\styles.css	Lines: 13
+E:\VedicMatchMaking\vedicmatchweb\tailwind.config.js	Lines: 7
+E:\VedicMatchMaking\Add-DockerToPath.ps1	Lines: 16
+E:\VedicMatchMaking\Automate-MatrimonySetup.ps1	Lines: 275
+E:\VedicMatchMaking\Build-And-Run-NodeDocker.ps1	Lines: 45
+E:\VedicMatchMaking\Build-KundliMicroservice.ps1	Lines: 42
+E:\VedicMatchMaking\Build-KundliSmart.ps1	Lines: 66
+E:\VedicMatchMaking\Check-And-Fix-MongoUri.ps1	Lines: 94
+E:\VedicMatchMaking\Check-And-Fix-SocketIO.ps1	Lines: 43
+E:\VedicMatchMaking\Check-And-Restart-SocketIO.ps1	Lines: 43
+E:\VedicMatchMaking\Check-DockerDeep.ps1	Lines: 133
+E:\VedicMatchMaking\Check-DockerStatus.ps1	Lines: 78
+E:\VedicMatchMaking\Check-LoginRegisterScreens.ps1	Lines: 60
+E:\VedicMatchMaking\Check-SocketIO.ps1	Lines: 58
+E:\VedicMatchMaking\Check-ViteStartup.ps1	Lines: 72
+E:\VedicMatchMaking\CheckAndFix-Docker.ps1	Lines: 117
+E:\VedicMatchMaking\Clean-ServerJsMongoUri.ps1	Lines: 73
+E:\VedicMatchMaking\create_project_structure.ps1	Lines: 445
+E:\VedicMatchMaking\Create-ApiGateway-WithUsersRoute.ps1	Lines: 84
+E:\VedicMatchMaking\createAdminUser.js	Lines: 6
+E:\VedicMatchMaking\createUser.js	Lines: 8
+E:\VedicMatchMaking\Deploy-VedicApp.ps1	Lines: 73
+E:\VedicMatchMaking\Diagnose-ApiGateway.ps1	Lines: 37
+E:\VedicMatchMaking\Diagnose-SocketIO-In-Backend.ps1	Lines: 32
+E:\VedicMatchMaking\docker-compose.yml	Lines: 47
+E:\VedicMatchMaking\Fix-And-Inject-SocketIO.ps1	Lines: 76
+E:\VedicMatchMaking\Fix-ApiGateway-ExpressServer.ps1	Lines: 48
+E:\VedicMatchMaking\Fix-ApiGateway-SocketIO.ps1	Lines: 95
+E:\VedicMatchMaking\Fix-ComposeCompiler.ps1	Lines: 43
+E:\VedicMatchMaking\Fix-DirectoryStructure.ps1	Lines: 5
+E:\VedicMatchMaking\Fix-DockerCompose.ps1	Lines: 32
+E:\VedicMatchMaking\Fix-DockerComposeYaml.ps1	Lines: 69
+E:\VedicMatchMaking\Fix-DockerEngine.ps1	Lines: 65
+E:\VedicMatchMaking\Fix-Express-Dockerfile-And-Restart.ps1	Lines: 47
+E:\VedicMatchMaking\Fix-Express-RootRoute-And-Restart.ps1	Lines: 44
+E:\VedicMatchMaking\Fix-HashLiteralErrors.ps1	Lines: 40
+E:\VedicMatchMaking\Fix-KotlinCompatibility.ps1	Lines: 42
+E:\VedicMatchMaking\Fix-KundliDockerfile.ps1	Lines: 31
+E:\VedicMatchMaking\Fix-KundliRequirePaths.ps1	Lines: 0
+E:\VedicMatchMaking\Fix-KundliServiceDockerfile.ps1	Lines: 109
+E:\VedicMatchMaking\Fix-MissingApiRoute.ps1	Lines: 42
+E:\VedicMatchMaking\Fix-ReactStyleBraces.ps1	Lines: 41
+E:\VedicMatchMaking\Fix-ReactStyleBracesAdvanced.ps1	Lines: 52
+E:\VedicMatchMaking\Fix-RegexInScript.ps1	Lines: 34
+E:\VedicMatchMaking\Fix-RootGradle.ps1	Lines: 22
+E:\VedicMatchMaking\Fix-SocketIO-Key-Safe.ps1	Lines: 20
+E:\VedicMatchMaking\Fix-SocketIO-Key.ps1	Lines: 16
+E:\VedicMatchMaking\Fix-SocketIO.ps1	Lines: 47
+E:\VedicMatchMaking\Fix-UnclosedHashBlock.ps1	Lines: 36
+E:\VedicMatchMaking\Fix-UnsafeRegex.ps1	Lines: 35
+E:\VedicMatchMaking\Fix-VedicApp.ps1	Lines: 87
+E:\VedicMatchMaking\Fix-VedicDocker.ps1	Lines: 160
+E:\VedicMatchMaking\Fix-ViteFrontend.ps1	Lines: 66
+E:\VedicMatchMaking\Fix-YamlLineError.ps1	Lines: 41
+E:\VedicMatchMaking\Fix-YamlRootAndServices.ps1	Lines: 27
+E:\VedicMatchMaking\FixAndBuild-KundliService.ps1	Lines: 69
+E:\VedicMatchMaking\FixAndDeploy-VedicApp.ps1	Lines: 183
+E:\VedicMatchMaking\fixed.ps1	Lines: 11
+E:\VedicMatchMaking\Generate-ProjectReport.ps1	Lines: 89
+E:\VedicMatchMaking\Handle-MongoPortError.ps1	Lines: 56
+E:\VedicMatchMaking\Inject-AndroidAuthTemplates.ps1	Lines: 137
+E:\VedicMatchMaking\Inject-AndroidAuthTestScreens.ps1	Lines: 137
+E:\VedicMatchMaking\Inject-AndroidFixedAuthScreens.ps1	Lines: 110
+E:\VedicMatchMaking\Inject-AndroidProductionScreens.ps1	Lines: 137
+E:\VedicMatchMaking\Inject-Express-RootRoute-And-Restart.ps1	Lines: 60
+E:\VedicMatchMaking\Inject-LoginRegisterTemplates.ps1	Lines: 161
+E:\VedicMatchMaking\Inject-ValidAndroidAuthScreens.ps1	Lines: 133
+E:\VedicMatchMaking\Kill-Port3000.ps1	Lines: 21
+E:\VedicMatchMaking\Load-HealthCheckUtils.ps1	Lines: 29
+E:\VedicMatchMaking\manage.ps1	Lines: 235
+E:\VedicMatchMaking\oad-HealthCheckUtils.ps1	Lines: 53
+E:\VedicMatchMaking\package-lock.json	Lines: 830
+E:\VedicMatchMaking\package.json	Lines: 5
+E:\VedicMatchMaking\Populate-DirectoryStructure.Tests.ps1	Lines: 257
+E:\VedicMatchMaking\Populate-VedicMatchMakingStructure.ps1	Lines: 273
+E:\VedicMatchMaking\README.md	Lines: 1
+E:\VedicMatchMaking\Rebuild-DockerCompose.ps1	Lines: 69
+E:\VedicMatchMaking\Repair-VedicApp.ps1	Lines: 121
+E:\VedicMatchMaking\Replace-Placeholders.ps1	Lines: 1261
+E:\VedicMatchMaking\Run-AllHealthChecks.ps1	Lines: 110
+E:\VedicMatchMaking\Run-AndroidAuthTestFlow.ps1	Lines: 80
+E:\VedicMatchMaking\Run-AndroidEmulatorAndBuild.ps1	Lines: 80
+E:\VedicMatchMaking\Run-DockerCompose.ps1	Lines: 26
+E:\VedicMatchMaking\Scan-SocketIO-Endpoints.ps1	Lines: 40
+E:\VedicMatchMaking\Setup-DatabaseAndBackend.ps1	Lines: 74
+E:\VedicMatchMaking\setup-kundli-service.ps1	Lines: 129
+E:\VedicMatchMaking\Setup-KundliMongoDB.ps1	Lines: 77
+E:\VedicMatchMaking\setup-mongodb.ps1	Lines: 102
+E:\VedicMatchMaking\Setup-MongooseMongo.ps1	Lines: 130
+E:\VedicMatchMaking\Setup-VedicMatchMakingStructure.ps1	Lines: 72
+E:\VedicMatchMaking\Start-AndroidEmulator.ps1	Lines: 53
+E:\VedicMatchMaking\Start-DockerDesktop-Auto.ps1	Lines: 122
+E:\VedicMatchMaking\StartMatchmakingStack.ps1	Lines: 14
+E:\VedicMatchMaking\structure-summary.json	Lines: 31
+E:\VedicMatchMaking\SyncFullSetup.ps1	Lines: 52
+E:\VedicMatchMaking\Test-FullSync.ps1	Lines: 56
+E:\VedicMatchMaking\Update-EnvMongoUri.ps1	Lines: 42
+E:\VedicMatchMaking\Utils.ps1	Lines: 69
+
+
+📦 Total Project Size (excluding big folders): 1,738.97 MB

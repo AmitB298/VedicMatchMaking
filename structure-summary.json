@@ -1,0 +1,31 @@
+{
+  "batch": "all",
+  "createdFiles": [],
+  "timestamp": "2025-06-23 20:39:59",
+  "dryRun": {
+    "IsPresent": false
+  },
+  "createdDirs": [],
+  "gitCommit": null,
+  "missingFiles": [
+    "matchmaking-app-backend\\services\\kundli\\kundli_service.py",
+    "matchmaking-app-backend\\services\\kundli\\Dockerfile",
+    "matchmaking-app-backend\\services\\kundli\\requirements.txt",
+    "matchmaking-app-backend\\controllers\\adminController.js",
+    "matchmaking-app-backend\\routes\\adminRoutes.js",
+    "matchmaking-app-backend\\tests\\kundli_service_test.py",
+    "matchmaking-app-backend\\tests\\verification_test.py",
+    "mobile\\readme.md",
+    "mobile\\mobile-config.json",
+    "matchmaking-app-web\\src\\screens\\AdminPanelScreen.tsx",
+    "matchmaking-app-web\\src\\screens\\__tests__\\AdminPanelScreen.test.tsx",
+    "vedicmatchweb\\index.html",
+    "vedicmatchweb\\about.html",
+    "vedicmatchweb\\contact.html",
+    "vedicmatchweb\\services.html",
+    "vedicmatchweb\\styles.css",
+    "vedicmatchweb\\script.js",
+    "matchmaking-app-android\\app\\src\\main\\res\\drawable\\ic_notification.xml",
+    "Fix-DirectoryStructure.ps1"
+  ]
+}

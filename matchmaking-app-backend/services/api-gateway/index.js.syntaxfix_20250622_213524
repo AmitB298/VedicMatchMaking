@@ -1,0 +1,52 @@
+const express = require('express');
+const cors = require('cors');
+const { MongoClient } = require('mongodb');
+
+const app = express();
+app.use(cors());
+app.use(express.json());
+
+const uri = 'mongodb://mongo:27017';
+const client = new MongoClient(uri);
+
+app.post('/api/v1/users', async (req, res) => {
+    try {
+        await client.connect();
+        const db = client.db('vedicmatch');
+        const { name, email } = req.body;
+        const result = await db.collection('users').insertOne({ name, email });
+        res.status(201).json({ insertedId: result.insertedId });
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: 'Insert failed' });
+    }
+});
+
+app.post('/api/v1/login', async (req, res) => {
+    const { mobile } = req.body;
+    if (!mobile) return res.status(400).json({ error: 'Mobile number required' });
+
+    try {
+        await client.connect();
+        const db = client.db('vedicmatch');
+        const user = await db.collection('users').findOne({ mobile: String(mobile) });
+
+        if (!user) {
+            res.status(404).json({ error: 'User not found' });
+        } else {
+            res.json({ message: 'Login successful', user });
+        }
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: 'Login failed' });
+    }
+});
+
+app.get('/api/v1/health', (req, res) => {
+    res.json({ status: 'ok' });
+});
+
+app.listen(3000, '0.0.0.0', () => {
+    console.log('✅ API Gateway running on port 3000');
+});
+

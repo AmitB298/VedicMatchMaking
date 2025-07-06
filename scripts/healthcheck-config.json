@@ -1,0 +1,17 @@
+{
+  "environments": [
+    {
+      "name": "development",
+      "active": true,
+      "projectRoot": "E:\\VedicMatchMaking",
+      "apis": [],
+      "docker": {},
+      "databases": [],
+      "notifications": {},
+      "meta": {
+        "createdBy": "InitScript",
+        "lastUpdated": "2025-07-05T23:30:00Z"
+      }
+    }
+  ]
+}

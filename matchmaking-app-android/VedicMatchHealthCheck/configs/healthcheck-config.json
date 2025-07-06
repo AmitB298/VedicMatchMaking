@@ -1,0 +1,8 @@
+{
+  "projectRoot": "E:\\VedicMatchMaking",
+  "androidModule": "matchmaking-app-android",
+  "webModule": "matchmaking-app-web",
+  "backendModule": "matchmaking-app-backend",
+  "healthCheckFrequencyMinutes": 30,
+  "notificationEmail": "admin@vedicmatch.com"
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+[ML] Generating synthetic Kundli data...
+  File "E:\VedicMatchMaking\matchmaking-app-backend\services\kundli\train_kundli_model.py", line 28, in <module>
+    print("\u2705 Sample training data created: kundli_training_data.csv")
+  File "E:\NiftyHyperCosmic\Tools\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>

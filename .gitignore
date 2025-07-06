@@ -35,3 +35,11 @@ serviceAccountKey.json
 # Misc
 .DS_Store
 __pycache__/
+
+# Ignore MongoDB data and journals
+matchmaking-app-backend/data/
+*.wt
+*.lock
+*.bson
+/journal
+*.turtle

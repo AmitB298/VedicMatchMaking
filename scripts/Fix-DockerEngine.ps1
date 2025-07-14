@@ -7,7 +7,7 @@ Write-Host "🔧 Fixing Docker Engine startup..." -ForegroundColor Cyan
 
 # Step 1: Kill Docker + WSL safely
 Write-Host "⛔ Stopping Docker & WSL backend..."
-Stop-Process -Name "Docker Desktop", "com.docker.backend", "com.docker.service", "Docker" -Force -ErrorAction SilentlyContinue
+Stop-Process -Name "Docker Desktop", "com.docker.backend", "com.docker.service", "Docker" Force -ErrorAction SilentlyContinue
 wsl --shutdown
 
 # Step 2: Unregister docker-desktop (if present)
@@ -46,4 +46,5 @@ if (Test-Path $pipePath) {
     Write-Host "💡 You can download the latest version from:"
     Write-Host "🔗 https://docs.docker.com/desktop/"
 }
+
 

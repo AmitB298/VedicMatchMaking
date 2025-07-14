@@ -65,7 +65,7 @@ Write-Log "------------------------------------------------------------"
 # Helper to build standard argument list
 function Build-Args {
     $args = @()
-    if ($null -ne $RootPath) { $args += @("-RootPath", $RootPath) }
+    if ($null -ne $RootPath) { $args += @("RootPath", $RootPath) }
     if ($Force) { $args += "-Force" }
     return $args
 }
@@ -73,7 +73,7 @@ function Build-Args {
 # Helper to build Docker-specific arguments
 function Build-DockerArgs {
     $args = @()
-    if ($null -ne $RootPath) { $args += @("-RootPath", $RootPath) }
+    if ($null -ne $RootPath) { $args += @("RootPath", $RootPath) }
     if ($null -ne $Version)  { $args += @("-Version", $Version) }
     if ($Force) { $args += "-Force" }
     return $args
@@ -127,3 +127,4 @@ if ($All -or $Docker) {
 
 Write-Log "✅ Orchestration Completed"
 Write-Log "------------------------------------------------------------"
+

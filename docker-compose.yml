@@ -1,50 +1,23 @@
-version: '3.9'
-
+version: '3.8'
 services:
-  api-gateway:
-    build:
-      context: ./matchmaking-app-backend/services/api-gateway
-      dockerfile: Dockerfile
-    container_name: vedicmatchmaking-api
+  node-backend:
+    build: ./node-backend
+    ports:
+      - "3001:3000"
+  kundli-service:
+    build: ./kundli-service
+    ports:
+      - "5000:5000"
+  web-frontend:
+    build: ./web-frontend
     ports:
       - "3000:3000"
-    environment:
-      - MONGODB_URI=mongodb://mongo:27017/vedicmatchmaking
-    depends_on:
-      - mongo
-    restart: unless-stopped
-
-  mongo:
-    image: mongo:6.0
-    container_name: vedicmatchmaking-mongo
-    volumes:
-      - mongo-data:/data/db
+  mongodb:
+    image: mongo:6
     ports:
       - "27017:27017"
-    restart: unless-stopped
+    volumes:
+      - mongo-data:/data/db
 
 volumes:
   mongo-data:
-  web:
-    container_name: vedicmatchmaking-web
-    build:
-      context: ./matchmaking-app-web
-      dockerfile: Dockerfile
-    ports:
-      - "5173:5173"
-    volumes:
-      - ./matchmaking-app-web:/app
-    working_dir: /app
-    command: npm run dev
-    depends_on:
-      - api  verifier:
-    container_name: vedicmatchmaking-verifier
-    build:
-      context: ./matchmaking-app-backend/services/verification
-      dockerfile: Dockerfile
-    ports:
-      - "5000:5000"
-    volumes:
-      - ./matchmaking-app-backend/services/verification:/verifier
-    working_dir: /verifier
-    command: python photo_verifier.py

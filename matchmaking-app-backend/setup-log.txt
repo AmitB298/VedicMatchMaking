@@ -1,0 +1,11 @@
+2025-07-07 00:52:05 - Setup started
+2025-07-07 00:52:05 - Folder already exists: routes
+2025-07-07 00:52:05 - Folder already exists: controllers
+2025-07-07 00:52:05 - Created folder: validators
+2025-07-07 00:52:05 - Created folder: docs
+2025-07-07 00:52:05 - Created routes/familyRoutes.js
+2025-07-07 00:52:05 - Created controllers/familyController.js
+2025-07-07 00:52:05 - Created validators/familySchema.json
+2025-07-07 00:52:05 - Created docs/family-openapi.yaml
+2025-07-07 00:52:05 - Created .env.example
+2025-07-07 00:52:05 - Family Member Registration & Login setup completed!

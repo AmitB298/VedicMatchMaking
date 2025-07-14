@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "232675844747",
+    "project_id": "vedicmatchmaking",
+    "storage_bucket": "vedicmatchmaking.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232675844747:android:c17647ca17c326a4462a8e",
+        "android_client_info": {
+          "package_name": "com.matchmaking.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232675844747-plten8aqoirfur90ebilcc5d4v030laa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matchmaking.app",
+            "certificate_hash": "27507e15870527b53c785c4d16560f185b12c4d1"
+          }
+        },
+        {
+          "client_id": "232675844747-q2fv58pdk55qb1ekdfa48auvj3fbu5rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK4eZd-Jp_y8Q0cJXsCiFeZ99huIuglxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232675844747-q2fv58pdk55qb1ekdfa48auvj3fbu5rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

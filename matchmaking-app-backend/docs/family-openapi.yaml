@@ -1,0 +1,65 @@
+openapi: 3.0.0
+info:
+  title: Family Member API
+  version: 1.0.0
+paths:
+  /api/family/register:
+    post:
+      summary: Register a family member
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '../validators/familySchema.json'
+      responses:
+        '200':
+          description: OK
+
+  /api/family/sendOtp:
+    post:
+      summary: Send OTP
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                phone:
+                  type: string
+      responses:
+        '200':
+          description: OK
+
+  /api/family/verifyOtp:
+    post:
+      summary: Verify OTP
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                phone:
+                  type: string
+                otp:
+                  type: string
+      responses:
+        '200':
+          description: OK
+
+  /api/family/login:
+    post:
+      summary: Family member login
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                phone:
+                  type: string
+                otp:
+                  type: string
+      responses:
+        '200':
+          description: OK

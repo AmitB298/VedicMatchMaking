@@ -1,0 +1,6 @@
+{
+  "name": "web-frontend",
+  "version": "1.0.0",
+  "scripts": { "start": "echo \"Starting React App (placeholder)\" && sleep infinity" },
+  "dependencies": {}
+}

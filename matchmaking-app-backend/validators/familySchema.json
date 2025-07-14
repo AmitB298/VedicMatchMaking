@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "FamilyMember",
+  "type": "object",
+  "properties": {
+    "name": { "type": "string" },
+    "phone": { "type": "string" },
+    "relation": { "type": "string" },
+    "linkedUserId": { "type": "string" },
+    "email": { "type": ["string", "null"] },
+    "language": { "type": "string" },
+    "bio": { "type": ["string", "null"] },
+    "gotra": { "type": ["string", "null"] },
+    "profession": { "type": ["string", "null"] }
+  },
+  "required": ["name", "phone", "relation", "linkedUserId"]
+}

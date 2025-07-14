@@ -1,0 +1,19 @@
+{
+  "Version": "1.0.0",
+  "PushByDefault": true,
+  "DockerHubNamespace": "amitbanerjee08111992",
+  "ProjectName": "VedicMatchMaking",
+  "WebFrontend": {
+    "Framework": "React",
+    "DevServerPort": "3000"
+  },
+  "Services": [
+    "web",
+    "backend"
+  ],
+  "AndroidEmulator": {
+    "EmulatorName": "Pixel_6_API_34",
+    "Enable": true,
+    "BuildVariant": "debug"
+  }
+}

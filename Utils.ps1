@@ -1,25 +1,36 @@
-# Utils.ps1 for HealthCheck
+<#
+.SYNOPSIS
+  Utility functions for VedicMatchHealthCheck
+.DESCRIPTION
+  - Logging with timestamps
+  - Assertion helpers
+  - Result recording
+  - Report saving
+#>
 
+# Initialize global results
 $global:CheckResults = @()
 
+# Logging
 function Log-Info {
     param([string]$Message)
-    $ts = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    Write-Host "[$ts] [INFO] $Message"
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    Write-Host "[$timestamp] [INFO] $Message"
 }
 
 function Log-Warning {
     param([string]$Message)
-    $ts = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    Write-Host "[$ts] [WARNING] $Message"
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    Write-Host "[$timestamp] [WARNING] $Message"
 }
 
 function Log-Error {
     param([string]$Message)
-    $ts = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
-    Write-Host "[$ts] [ERROR] $Message"
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    Write-Host "[$timestamp] [ERROR] $Message"
 }
 
+# Assertions
 function Assert-FileExists {
     param([string]$Path)
     if (-not (Test-Path $Path)) {
@@ -38,6 +49,7 @@ function Assert-DirectoryExists {
     Log-Info "✅ Verified directory exists: $Path"
 }
 
+# Result recording
 function Record-Result {
     param(
         [string]$Check,
@@ -51,14 +63,27 @@ function Record-Result {
     }
 }
 
+# Save report
 function Save-Report {
-    param (
-        [string]$Path = (Join-Path $PSScriptRoot "..\reports\healthcheck-summary.json")
+    param(
+        [string]$HealthCheckRoot
     )
-    if ($global:CheckResults) {
+
+    if (-not $HealthCheckRoot) {
+        $HealthCheckRoot = (Get-Location).Path
+    }
+
+    $reportsDir = Join-Path $HealthCheckRoot "reports"
+    if (-not (Test-Path $reportsDir)) {
+        New-Item -ItemType Directory -Path $reportsDir | Out-Null
+        Log-Info "✅ Created reports directory at $reportsDir"
+    }
+
+    $reportPath = Join-Path $reportsDir "healthcheck-summary.json"
+    if ($global:CheckResults.Count -gt 0) {
         $json = $global:CheckResults | ConvertTo-Json -Depth 5
-        Set-Content -Path $Path -Value $json -Encoding UTF8
-        Log-Info "✅ Healthcheck summary saved to $Path"
+        Set-Content -Path $reportPath -Value $json -Encoding UTF8
+        Log-Info "✅ Healthcheck summary saved to $reportPath"
     } else {
         Log-Warning "⚠️ No health check results to save."
     }

@@ -1,0 +1,11 @@
+{
+  "DockerNamespace": "yourdockerusername",
+  "Services": [
+    "backend",
+    "kundli-service",
+    "web",
+    "android"
+  ],
+  "Version": "1.0.0",
+  "Name": "VedicMatchMaking"
+}

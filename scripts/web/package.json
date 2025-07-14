@@ -1,0 +1,7 @@
+{
+  "name": "vedicmatch-frontend",
+  "version": "1.0.0",
+  "dependencies": {
+    "firebase": "^9.0.0"
+  }
+}

@@ -1,3 +1,8 @@
+param(
+    [string]$RootPath = ".",
+    [switch]$Force
+)
+
 Write-Host "🔧 Fixing Docker Engine startup..." -ForegroundColor Cyan
 
 # Step 1: Kill Docker + WSL safely
@@ -41,3 +46,4 @@ if (Test-Path $pipePath) {
     Write-Host "💡 You can download the latest version from:"
     Write-Host "🔗 https://docs.docker.com/desktop/"
 }
+

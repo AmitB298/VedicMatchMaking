@@ -1,9 +1,8 @@
-﻿function App() {
-  return (
-    <div style={{ padding: "2rem", fontSize: "1.5rem" }}>
-      <h1>🕉 Vedic Matchmaking Web UI</h1>
-      <p>This is the default landing page. Customize as needed.</p>
-    </div>
-  )
+import React from 'react';
+import LoginScreen from './screens/LoginScreen';
+
+function App() {
+  return <LoginScreen />;
 }
-export default App
+
+export default App;

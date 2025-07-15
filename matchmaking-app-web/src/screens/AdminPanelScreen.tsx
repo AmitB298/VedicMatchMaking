@@ -1,6 +1,5 @@
-// AdminPanelScreen.tsx
+﻿// AdminPanelScreen.tsx
 import React from 'react';
-
 const AdminPanelScreen: React.FC = () => {
     return (
         <div>
@@ -9,5 +8,4 @@ const AdminPanelScreen: React.FC = () => {
         </div>
     );
 };
-
 export default AdminPanelScreen;

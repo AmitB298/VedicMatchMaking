@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import axios from 'axios';
-
 export default function RegisterScreen() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [displayName, setDisplayName] = useState('');
     const [photoURL, setPhotoURL] = useState('');
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
@@ -17,7 +15,6 @@ export default function RegisterScreen() {
             alert('Registration failed!');
         }
     };
-
     return (
         <div className="max-w-md mx-auto mt-10 p-6 rounded-lg shadow-lg bg-white">
             <h1 className="text-2xl mb-4">Register</h1>

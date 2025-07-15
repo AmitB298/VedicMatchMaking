@@ -1,5 +1,4 @@
-import React from 'react';
-
+﻿import React from 'react';
 export default function Card({ title, children }: { title?: string, children: React.ReactNode }) {
   return (
     <div className="max-w-lg rounded-xl border shadow-sm p-5 bg-white">

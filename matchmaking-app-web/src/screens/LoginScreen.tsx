@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import axios from 'axios';
-
 export default function LoginScreen() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
@@ -15,7 +13,6 @@ export default function LoginScreen() {
             alert('Login failed!');
         }
     };
-
     return (
         <div className="max-w-md mx-auto mt-10 p-6 rounded-lg shadow-lg bg-white">
             <h1 className="text-2xl mb-4">Login</h1>

@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import ProfileCard from "@/components/ProfileCard";
 import ProgressBar from "@/components/ProgressBar";
-
 type KundliMatchResult = {
   vedic_score: number;
   ai_match_score: number;
@@ -16,11 +15,9 @@ type KundliMatchResult = {
   caste1: string;
   caste2: string;
 };
-
 const KundliMatchReport = () => {
   const [result, setResult] = useState<KundliMatchResult | null>(null);
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     fetch("http://127.0.0.1:5055/api/kundli/hybrid", {
       method: "POST",
@@ -47,7 +44,6 @@ const KundliMatchReport = () => {
       .catch(console.error)
       .finally(() => setLoading(false));
   }, []);
-
   if (loading) {
     return (
       <div className="flex items-center justify-center h-screen">
@@ -55,7 +51,6 @@ const KundliMatchReport = () => {
       </div>
     );
   }
-
   if (!result) {
     return (
       <div className="flex items-center justify-center h-screen">
@@ -63,29 +58,24 @@ const KundliMatchReport = () => {
       </div>
     );
   }
-
   return (
     <div className="max-w-3xl mx-auto p-6">
       <h1 className="text-3xl font-bold mb-6 text-center">💍 Kundli Match Report</h1>
-
       <ProfileCard
         name1={result.name1 || "Amit Sharma"}
         name2={result.name2 || "Anita Patel"}
         caste1={result.caste1 || "Brahmin from North India"}
         caste2={result.caste2 || "Patidar from Gujarat"}
       />
-
       <div className="my-6">
         <h2 className="text-xl font-semibold mb-2">Overall Verdict</h2>
         <p className="p-3 bg-green-100 rounded-lg border">{result.verdict}</p>
       </div>
-
       <div className="my-6">
         <h2 className="text-xl font-semibold mb-2">Compatibility Score</h2>
         <ProgressBar value={result.compatibility_score} />
         <p className="text-center mt-2">{result.compatibility_score}/100</p>
       </div>
-
       <div className="my-6">
         <h2 className="text-xl font-semibold mb-2">Guna Matching Analysis</h2>
         <ul className="space-y-2">
@@ -99,7 +89,6 @@ const KundliMatchReport = () => {
           ))}
         </ul>
       </div>
-
       <div className="my-6">
         <h2 className="text-xl font-semibold mb-2">Detailed Explanations</h2>
         <ul className="space-y-2">
@@ -113,7 +102,6 @@ const KundliMatchReport = () => {
           ))}
         </ul>
       </div>
-
       <div className="my-6">
         <h2 className="text-xl font-semibold mb-2">Recommended Remedies</h2>
         <ul className="space-y-2">
@@ -127,7 +115,6 @@ const KundliMatchReport = () => {
           ))}
         </ul>
       </div>
-
       <div className="my-6">
         <h2 className="text-xl font-semibold mb-2">Scores</h2>
         <p className="mb-2">Vedic Guna Score: {result.vedic_score}</p>
@@ -137,5 +124,4 @@ const KundliMatchReport = () => {
     </div>
   );
 };
-
 export default KundliMatchReport;

@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import { login } from "../../services/authService";
 import SocialLoginButtons from "./SocialLoginButtons";
-
 export default function LoginScreen() {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
-
   const handleSubmit = async (e: any) => {
     e.preventDefault();
     try {
@@ -17,7 +15,6 @@ export default function LoginScreen() {
       alert("Error logging in.");
     }
   };
-
   return (
     <div className="max-w-md mx-auto p-6">
       <h2 className="text-2xl font-bold mb-4">Login</h2>

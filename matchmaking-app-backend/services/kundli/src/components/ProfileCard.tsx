@@ -1,12 +1,10 @@
-import React from "react";
-
+﻿import React from "react";
 interface ProfileCardProps {
   name1: string;
   name2: string;
   caste1: string;
   caste2: string;
 }
-
 const ProfileCard: React.FC<ProfileCardProps> = ({ name1, name2, caste1, caste2 }) => {
   return (
     <div className="bg-white rounded-lg shadow p-4 flex justify-between items-center">
@@ -22,5 +20,4 @@ const ProfileCard: React.FC<ProfileCardProps> = ({ name1, name2, caste1, caste2 
     </div>
   );
 };
-
 export default ProfileCard;

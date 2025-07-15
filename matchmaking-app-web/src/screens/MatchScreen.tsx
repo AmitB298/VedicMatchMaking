@@ -1,14 +1,12 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import firebase from "../firebase";
 import "./ProfileScreen.css";
-
 const LoginScreen: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
   const navigate = useNavigate();
-
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
@@ -18,7 +16,6 @@ const LoginScreen: React.FC = () => {
       setError(err.message);
     }
   };
-
   return (
     <div className="profile-screen">
       <h1>Login</h1>
@@ -52,5 +49,4 @@ const LoginScreen: React.FC = () => {
     </div>
   );
 };
-
 export default LoginScreen;

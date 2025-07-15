@@ -1,4 +1,4 @@
-function App() {
+﻿function App() {
   return (
     <div style={{ padding: "2rem", fontSize: "1.5rem" }}>
       <h1>🕉 Vedic Matchmaking Web UI</h1>
@@ -6,5 +6,4 @@ function App() {
     </div>
   )
 }
-
 export default App
